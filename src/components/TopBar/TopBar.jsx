@@ -6,7 +6,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const { icons, links } = headerData
+const { icons } = headerData
 
 const TopBar = () => {
     return (
@@ -25,12 +25,6 @@ const TopBar = () => {
                                 <Link href={subHref ? `${subHref}:${content}` : href}>{content}</Link>
                             </li>
                         ))}
-
-                    </ul>
-                    <ul className="topbar-one__links">
-                        {
-                            links.map(({ id, name, href }) => <li key={id}><Link href={href}>{name}</Link></li>)
-                        }
 
                     </ul>
                 </div>

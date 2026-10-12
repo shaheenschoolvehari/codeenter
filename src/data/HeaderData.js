@@ -318,18 +318,6 @@ const topbarFiveData = {
   infoTel: "+95 2512 2514 25",
   infoHref: "+952512251425",
   infoSubHref: "tel",
-  links: [
-    {
-      id: 1,
-      name: "Login",
-      href: "login"
-    },
-    {
-      id: 2,
-      name: "Register",
-      href: "contact"
-    }
-  ],
   flag,
   languages: [
     {
@@ -386,23 +374,6 @@ const headerData = {
       icon: "fas fa-envelope",
       content: "27, Dhaka London City Dhaka, Bangladesh",
       href: "https://www.google.com/maps",
-    },
-  ],
-  links: [
-    {
-      id: 1,
-      name: "Login",
-      href: "login",
-    },
-    {
-      id: 2,
-      name: "Register",
-      href: "contact",
-    },
-    {
-      id: 3,
-      name: "Services",
-      href: "services",
     },
   ],
   headerFourCall: {

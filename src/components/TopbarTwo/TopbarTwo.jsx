@@ -11,7 +11,8 @@ const TinySlider = dynamic(() => import("tiny-slider-react"), {
 });
 
 
-const { links, topbarTwoCarousel } = headerData
+const { topbarTwoCarousel } = headerData
+
 
 const TopbarTwo = () => {
     const [mounted, setMounted] = useState(false);
@@ -65,14 +66,7 @@ const TopbarTwo = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col md={5}>
-                        <ul className="topbar-two__links">
-                            {
-                                links.map(({ id, name, href }) => <li key={id}><Link href={href}>{name}</Link></li>)
-                            }
 
-                        </ul>
-                    </Col>
                 </Row>
             </Container >
         </div >

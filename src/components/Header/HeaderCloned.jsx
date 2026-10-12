@@ -21,7 +21,7 @@ const HeaderCloned = ({ dark, rtl }) => {
   }, [])
 
 
-  const { toggleSearch, handleToggle, toggleSidebar, openMegaMenu } = useRootContext();
+  const { handleToggle, openMegaMenu } = useRootContext();
 
   if (!mounted) {
     return null
@@ -64,33 +64,6 @@ const HeaderCloned = ({ dark, rtl }) => {
               <span></span>
               <span></span>
             </div>
-            <Link
-              href='#'
-              onClick={toggleSearch}
-              className='search-toggler main-header__search'
-            >
-              <i className='icon-magnifying-glass' aria-hidden='true'></i>
-              <span className='sr-only'>Search</span>
-            </Link>
-            <a href='cart' className='main-header__cart'>
-              <i className='icon-shopping-cart' aria-hidden='true'></i>
-              <span className='sr-only'>Search</span>
-            </a>
-            <Link
-              href='#'
-              className='main-header__toggler'
-              onClick={toggleSidebar}
-            >
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </Link>
             <Link href='contact' className='tolak-btn main-header__btn'>
               <b>Discover More</b>
               <span></span>

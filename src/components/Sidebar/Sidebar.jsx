@@ -6,7 +6,7 @@ import Link from 'next/link';
 import React from 'react';
 import SidebarNewsletter from '../SidebarNewsletter/SidebarNewsletter';
 
-const { icons, links, logo_light, sidebarOneText, social } = headerData
+const { icons, logo_light, sidebarOneText, social } = headerData
 
 const Sidebar = () => {
     const { openSidebar, toggleSidebar } = useRootContext()

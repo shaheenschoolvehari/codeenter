@@ -7,7 +7,7 @@ import { Container } from 'react-bootstrap';
 const { topbarFiveData } = headerData
 
 const TopbarFive = () => {
-    const { flag, infoHref, infoIcon, infoSubHref, infoTel, infoText, languages, links } = topbarFiveData
+    const { flag, infoHref, infoIcon, infoSubHref, infoTel, infoText, languages } = topbarFiveData
     return (
         <div className="topbar-five" id="home">
             <Container >
@@ -17,12 +17,6 @@ const TopbarFive = () => {
                         {infoText}: <Link href={`${infoSubHref}:${infoHref}`}>{infoTel}</Link>
                     </div>
                     <div className="topbar-five__right">
-                        <ul className="topbar-five__links">
-                            {
-                                links.map(({ id, name, href }) => <li key={id}><Link href={href}>{name}</Link></li>)
-                            }
-
-                        </ul>
                         <div className="topbar-five__language">
                             <Link href="#"><Image src={flag} alt="Code Enter" />English</Link>
                             <div className="topbar-five__language__dropdown">

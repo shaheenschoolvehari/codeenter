@@ -12,7 +12,7 @@ import useScrollUp from "@/hooks/useScrollUp";
 const { navItems, logo_light } = headerData;
 const HeaderInner = () => {
   const scrollToTop = useScrollUp(500);
-  const { toggleSearch, handleToggle, toggleSidebar } = useRootContext();
+  const { handleToggle } = useRootContext();
   return (
     <header className={`main-header-inner sticky-header sticky-header--normal  ${scrollToTop ? "active" : ""}`}>
       <div className='container'>
@@ -47,13 +47,6 @@ const HeaderInner = () => {
               <span></span>
               <span></span>
             </div>
-            <Link
-              onClick={toggleSearch}
-              href='#'
-              className='search-toggler main-header-inner__search'
-            >
-              <i className='icon-magnifying-glass'></i>
-            </Link>
             <Link href='contact' className='tolak-btn main-header-inner__btn'>
               <b>Discover More</b>
               <span></span>

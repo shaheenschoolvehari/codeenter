@@ -5,9 +5,7 @@ import AOS from "aos";
 // import WOW from 'wowjs';
 import CustomCursor from "../CustomCursor/CustomCursor";
 import Preloader from "../Preloader/Preloader";
-import Search from "../Search/Search";
 import MobileNav from "../MobileNav/MobileNav";
-import Sidebar from "../Sidebar/Sidebar";
 import ScrollTop from "../ScrollTop/ScrollTop";
 import { usePathname } from "next/navigation";
 import { Toaster } from "react-hot-toast";
@@ -89,8 +87,6 @@ const Layout = ({ children, pageTitle, onePage }) => {
         {children}
       </div>
       <MobileNav onePage={onePage} />
-      <Search />
-      <Sidebar />
       <ScrollTop />
       <Toaster position="top-right" />
     </>

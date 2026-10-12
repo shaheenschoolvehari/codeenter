@@ -4851,7 +4851,7 @@ h6 {
 .main-header__right {
   display: flex;
   align-items: center;
-  border-left: 1px solid var(--tolak-border-color, #dddddd);
+  border-left: none;
   margin-left: 5px;
   padding: 9.5px 0;
 }
