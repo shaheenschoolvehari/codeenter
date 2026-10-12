@@ -22,7 +22,7 @@ const HeaderFiveCloned = () => {
                 <div className="main-header-five__inner">
                     <div className="main-header-five__logo">
                         <Link href='/home1'>
-                            <Image src={logo3} alt="Tolak HTML" width={184}
+                            <Image src={logo3} alt="Code Enter" width={184}
                                 style={{ height: "auto" }} />
                         </Link>
                     </div>

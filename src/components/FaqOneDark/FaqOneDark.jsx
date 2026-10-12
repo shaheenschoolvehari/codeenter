@@ -73,7 +73,7 @@ const FaqOneDark = () => {
                     className='faq-one__image tolak-tilt'
                     options={defaultOptions}
                   >
-                    <Image src={image} alt='tolak' />
+                    <Image src={image} alt='Code Enter' />
                   </Tilt>
                 </Col>
                 <Col md={7}>

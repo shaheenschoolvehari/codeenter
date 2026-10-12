@@ -8,7 +8,7 @@ import ServiceDetails from '@/components/ServiceDetails/ServiceDetails';
 import React from 'react';
 
 export const metadata = {
-    title: "Business Solution || Tolak || NextJS Template For It Solution & Business",
+    title: "Business Solution || Code Enter || NextJS Template For It Solution & Business",
     description:
         "Tolak is a modern NextJS Template for Business, It Solution, Corporate, Agency, Portfolio shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses.",
 };

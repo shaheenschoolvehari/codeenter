@@ -57,7 +57,7 @@ const WhyChooseOne = () => {
               className='why-choose-one__image wow slideInRight' data-aos='fade-left'
               data-aos-delay='100'
             >
-              <Image src={image} alt='tolak' />
+              <Image src={image} alt='Code Enter' />
             </div>
           </Col>
         </Row>

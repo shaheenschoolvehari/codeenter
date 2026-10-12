@@ -5,7 +5,7 @@ export const footerDemoData = {
     bgImage: footerBgImage,
     shapeImage: footerShapeImage,
     title: "Create Stunning Website Now!",
-    text: "Purchase Tolak NextJS Template",
+    text: "Purchase Code Enter",
     button: {
         href: "#",
         target: "_blank",
@@ -14,6 +14,6 @@ export const footerDemoData = {
     },
     copyright: {
 
-        text: "by Tolak NextJS Template"
+        text: "by Code Enter"
     }
 };

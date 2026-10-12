@@ -16,8 +16,8 @@ const ctaElevenData = {
             id: 2,
             icon: "tolak-icons-two-mail",
             title: "Send Email",
-            text: "tolak@envato.com",
-            href: "tolak@envato.com",
+            text: "info@codeenter.com",
+            href: "info@codeenter.com",
             subHref: "mailTo"
         }
     ],

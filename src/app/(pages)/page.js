@@ -21,9 +21,9 @@ import HeaderSingle from "@/components/Header/HeaderSingle";
 import HeaderSingleCloned from "@/components/Header/HeaderSingleCloned";
 
 export const metadata = {
-  title: "Tolak - IT Solution & Business",
+  title: "Code Enter - IT Solution & Business",
   description:
-    "Tolak is a modern IT Solution, Corporate & Business Website.",
+    "Code Enter is a modern IT Solution, Corporate & Business Website.",
 };
 
 const page = () => {

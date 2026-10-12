@@ -37,7 +37,7 @@ const FooterSix = () => {
                   src={logo6}
                   width={184}
                   style={{ height: "auto" }}
-                  alt='Tolak NextJS Template'
+                  alt='Code Enter'
                 />
               </Link>
               <p className='footer-widget--about-two__text'>{aboutTwoText}</p>
@@ -107,7 +107,7 @@ const FooterSix = () => {
               <Col md={6}>
                 <p className='main-footer-five__copyright'>
                   &copy; Copyright{" "}
-                  <span className='dynamic-year'>{currentYear}</span> by Tolak NextJS
+                  <span className='dynamic-year'>{currentYear}</span> by Code Enter
                   Template.
                 </p>
               </Col>

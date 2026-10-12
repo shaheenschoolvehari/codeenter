@@ -34,9 +34,11 @@ const HeaderCloned = ({ dark, rtl }) => {
             <Link href='/home1'>
               <Image
                 src={dark ? logo_light : rtl ? logo_rtl : main_logo}
-                alt='Tolak HTML'
-                width={184}
-                style={{ height: "auto" }}
+                alt='Code Enter'
+                width={200}
+                height={45}
+                style={{ width: "auto", height: "45px", objectFit: "contain" }}
+                priority
               />
             </Link>
           </div>

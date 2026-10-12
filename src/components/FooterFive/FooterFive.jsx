@@ -17,7 +17,7 @@ const FooterFive = () => {
                     <Col md={6} lg={4} className="col-md-6 col-lg-4">
                         <div className="footer-widget footer-widget--about-two">
                             <Link href="/" className="footer-widget__logo">
-                                <Image src={logo4} width={184} style={{ height: "auto" }} alt="Tolak NextJS Template" />
+                                <Image src={logo4} width={184} style={{ height: "auto" }} alt="Code Enter" />
                             </Link>
                             <p className="footer-widget--about-two__text">
                                 {aboutTwoText}
@@ -90,7 +90,7 @@ const FooterFive = () => {
                         <Row className="row">
                             <Col md={6}>
                                 <p className="main-footer-four__copyright">
-                                    &copy; Copyright <span className="dynamic-year">{year}</span> by Tolak NextJS Template.
+                                    &copy; Copyright <span className="dynamic-year">{year}</span> by Code Enter.
                                 </p>
                             </Col>
                             <Col md={6}>

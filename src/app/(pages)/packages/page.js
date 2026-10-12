@@ -9,7 +9,7 @@ import PricingOne from '@/components/PricingOne/PricingOne';
 import React from 'react';
 
 export const metadata = {
-    title: "Packages || Tolak || NextJS Template For It Solution & Business",
+    title: "Packages || Code Enter || NextJS Template For It Solution & Business",
     description:
         "Tolak is a modern NextJS Template for Business, It Solution, Corporate, Agency, Portfolio shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses.",
 };

@@ -67,7 +67,7 @@ const ServiceFour = () => {
                                     </p>
                                 </div>
                                 <div className="service-four__item__image">
-                                    <Image src={image} alt="tolak" style={{ height: "auto" }} />
+                                    <Image src={image} alt="Code Enter" style={{ height: "auto" }} />
                                     <a className="service-four__item__rm" href={href}><span className="tolak-icons-two-arrow-right-short"></span></a>
                                 </div>
                             </div>

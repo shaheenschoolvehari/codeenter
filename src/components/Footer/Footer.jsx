@@ -20,7 +20,7 @@ const Footer = () => {
                     <Col md={6} lg={4} >
                         <div className="footer-widget footer-widget--about">
                             <Link href="/" className="footer-widget__logo">
-                                <Image src={logo} width={184} style={{ height: "auto" }} alt="Tolak NextJS Template" />
+                                <Image src={logo} width={210} height={48} style={{ width: "auto", height: "48px", objectFit: "contain" }} alt="Code Enter" />
                             </Link>
                             <ul className="footer-widget__info">
                                 <li><span className={widgetInfo.timeIcon}></span>{
@@ -42,7 +42,7 @@ const Footer = () => {
 
                             </div>
                             <div className="footer-widget__image">
-                                <Image src={footerAbout} alt="tolak" />
+                                <Image src={footerAbout} alt="Code Enter" />
                             </div>
                         </div>
                     </Col>
@@ -100,7 +100,7 @@ const Footer = () => {
                     <Row >
                         <Col md={6} >
                             <p className="main-footer__copyright">
-                                &copy; Copyright <span className="dynamic-year">{year}</span> by Tolak NextJS Template.
+                                &copy; Copyright <span className="dynamic-year">{year}</span> by Code Enter.
                             </p>
                         </Col>
                         <Col md={6} >

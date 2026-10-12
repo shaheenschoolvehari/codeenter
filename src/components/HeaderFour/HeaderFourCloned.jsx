@@ -20,7 +20,7 @@ const HeaderFourCloned = () => {
             <Link href='/home1'>
               <Image
                 src={main_logo}
-                alt='Tolak HTML'
+                alt='Code Enter'
                 width={184}
                 style={{ height: "auto" }}
               />

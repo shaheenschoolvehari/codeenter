@@ -21,7 +21,7 @@ const MobileNav = ({ onePage }) => {
 
                 <div className="logo-box">
                     <Link href="/" >
-                        <Image src={logo_light.src} width={155} alt="tolak" />
+                        <Image src={logo_light.src} width={180} height={42} style={{ width: "auto", height: "42px", objectFit: "contain" }} alt="Code Enter" />
                     </Link>
                 </div>
 
@@ -64,7 +64,7 @@ const MobileNav = ({ onePage }) => {
                 <ul className="mobile-nav__contact list-unstyled">
                     <li>
                         <i className="fa fa-envelope"></i>
-                        <a href="mailto:needhelp@tolak.com">needhelp@tolak.com</a>
+                        <a href="mailto:needhelp@codeenter.com">needhelp@codeenter.com</a>
                     </li>
                     <li>
                         <i className="fa fa-phone-alt"></i>

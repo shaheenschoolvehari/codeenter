@@ -54,7 +54,7 @@ const ProjectDetailsFaq = () => {
               onExit={() => setCounterOn(false)}
             >
               <div className='project-details-faq__image'>
-                <Image src={image} alt='tolak' />
+                <Image src={image} alt='Code Enter' />
 
                 <Tilt
                   className='project-details-faq__item count-box '

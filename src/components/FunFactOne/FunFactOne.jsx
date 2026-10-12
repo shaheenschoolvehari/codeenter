@@ -42,11 +42,11 @@ const FunFactOne = ({ rtl }) => {
           <Col lg={6}>
 
             <div className='funfact-one__image'>
-              <Image src={image} alt='tolak' />
+              <Image src={image} alt='Code Enter' />
               <Image
                 className='funfact-one__image__shape'
                 src={rtl ? shapeRtl : shape}
-                alt='tolak'
+                alt='Code Enter'
               />
 
               {items.map(({ id, text, count, identity }) => (

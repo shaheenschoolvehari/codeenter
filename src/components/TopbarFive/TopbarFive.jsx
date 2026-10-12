@@ -24,10 +24,10 @@ const TopbarFive = () => {
 
                         </ul>
                         <div className="topbar-five__language">
-                            <Link href="#"><Image src={flag} alt="tolak" />English</Link>
+                            <Link href="#"><Image src={flag} alt="Code Enter" />English</Link>
                             <div className="topbar-five__language__dropdown">
                                 {
-                                    languages.map(({ id, flag, language }) => <Link key={id} href="#"><Image src={flag} alt="tolak" />{language}</Link>)
+                                    languages.map(({ id, flag, language }) => <Link key={id} href="#"><Image src={flag} alt="Code Enter" />{language}</Link>)
                                 }
 
 

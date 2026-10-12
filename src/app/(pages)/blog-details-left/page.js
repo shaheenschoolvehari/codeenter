@@ -8,7 +8,7 @@ import PageHeader from '@/components/PageHeader/PageHeader';
 
 import React from 'react';
 export const metadata = {
-    title: "Blog Details Left || Tolak || NextJS Template For It Solution & Business",
+    title: "Blog Details Left || Code Enter || NextJS Template For It Solution & Business",
     description:
         "Tolak is a modern NextJS Template for Business, It Solution, Corporate, Agency, Portfolio shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses.",
 };

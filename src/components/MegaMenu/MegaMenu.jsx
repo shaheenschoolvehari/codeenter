@@ -39,7 +39,7 @@ const MegaMenu = ({ pageTitle }) => {
                                                 <Col key={id} md={6} lg={4}>
                                                     <div className="demo-one__card">
                                                         <div className="demo-one__image">
-                                                            <Image src={image} alt="tolak" />
+                                                            <Image src={image} alt="Code Enter" />
                                                             {isNew ? <span className="demo-one__image__new">{isNew}</span> : null}
                                                             <div className="demo-one__btns">
                                                                 {btns.map(({ id, name, href }) =>

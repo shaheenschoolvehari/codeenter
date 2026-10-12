@@ -79,7 +79,7 @@ const PojectOne = ({ titleTwo }) => {
             <div key={id} className='item'>
               <div className='project-one__item'>
                 <div className='project-one__image'>
-                  <Image src={image} alt='tolak' />
+                  <Image src={image} alt='Code Enter' />
                 </div>
                 <div className='project-one__hover'>
                   <Link className='project-one__read-more' href={href}>

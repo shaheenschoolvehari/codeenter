@@ -10,7 +10,7 @@ import Products from '@/components/Products/Products';
 import React from 'react';
 
 export const metadata = {
-    title: "Products Left Sidebar || Tolak || NextJS Template For It Solution & Business",
+    title: "Products Left Sidebar || Code Enter || NextJS Template For It Solution & Business",
     description:
         "Tolak is a modern NextJS Template for Business, It Solution, Corporate, Agency, Portfolio shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses.",
 };

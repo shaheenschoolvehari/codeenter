@@ -45,7 +45,7 @@ const SkillOne = () => {
                 <Row>
                   <Col md={5}>
                     <div className='skill-one__content__image'>
-                      <Image src={contImage} alt='tolak' />
+                      <Image src={contImage} alt='Code Enter' />
                     </div>
                   </Col>
 
@@ -144,11 +144,11 @@ const SkillOne = () => {
           </Col>
           <Col lg={6} className='wow fadeInRight' data-aos='fade-left' data-aos-delay='00ms'>
             <div className='skill-one__image'>
-              <Image src={image} alt='tolak' />
+              <Image src={image} alt='Code Enter' />
               <Image
                 className='skill-one__image__shape'
                 src={shape}
-                alt='tolak'
+                alt='Code Enter'
               />
               <div
                 className='skill-one__image__text wow fadeInUp' data-aos='fade-up'

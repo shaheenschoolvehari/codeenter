@@ -42,7 +42,7 @@ const FooterTwo = ({ pageTitle }) => {
                   src={footerLogo}
                   width={184}
                   style={{ height: "auto" }}
-                  alt='Tolak NextJS Template'
+                  alt='Code Enter'
                 />
               </a>
               <p className='footer-widget--about-two__text'>{widgetText}</p>
@@ -108,7 +108,7 @@ const FooterTwo = ({ pageTitle }) => {
           <Row>
             <Col md={6}>
               <p className='main-footer-two__copyright'>
-                &copy; Copyright <span className='dynamic-year'></span> by Tolak
+                &copy; Copyright <span className='dynamic-year'></span> by Code Enter
                 NextJS Template.
               </p>
             </Col>

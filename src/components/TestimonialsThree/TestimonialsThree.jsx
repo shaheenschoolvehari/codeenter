@@ -56,11 +56,11 @@ const TestimonialsThree = () => {
         <Row>
           <Col lg={6}>
             <div className='testimonials-three__image'>
-              <Image src={image1} alt='tolak' />
+              <Image src={image1} alt='Code Enter' />
               <Image
                 className='testimonials-three__image__left'
                 src={image2}
-                alt='tolak'
+                alt='Code Enter'
               />
             </div>
           </Col>

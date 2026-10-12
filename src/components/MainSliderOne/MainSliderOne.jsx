@@ -71,7 +71,7 @@ const MainSliderOne = () => {
                   <Tilt
                     className='main-slider-one__shape tolak-tilt' options={defaultOptions}
                   >
-                    <Image src={shape} alt='tolak' />
+                    <Image src={shape} alt='Code Enter' />
                   </Tilt>
                   <div
                     className='main-slider-one__bg'
@@ -215,7 +215,7 @@ const MainSliderOne = () => {
                     </Row>
                   </Container>
 
-                  <div className='main-slider-one__floating-text'>Tolak</div>
+                  <div className='main-slider-one__floating-text'>Code Enter</div>
                 </div>
               </div>
             )

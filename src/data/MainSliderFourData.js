@@ -5,7 +5,7 @@ const mainSliderFourData = [
   {
     id: 1,
     bg: bg1,
-    subTitle: "Wellcome To Tolak !",
+    subTitle: "Wellcome To Code Enter !",
     titleTwo: "We Marketing Process",
     title: "Solution Service !",
     text: "Business a soluion and emirate in the Arab known \n for luxury city for Company.",
@@ -13,7 +13,7 @@ const mainSliderFourData = [
   {
     id: 2,
     bg: bg2,
-    subTitle: "Wellcome To Tolak !",
+    subTitle: "Wellcome To Code Enter !",
     titleTwo: "We Marketing Process",
     title: "Solution Service !",
     text: "Business a soluion and emirate in the Arab known \n for luxury city for Company.",

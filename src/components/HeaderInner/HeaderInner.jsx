@@ -21,7 +21,7 @@ const HeaderInner = () => {
             <Link href='/home1'>
               <Image
                 src={logo_light}
-                alt='Tolak HTML'
+                alt='Code Enter'
                 width={184}
                 style={{ height: "auto" }}
               />

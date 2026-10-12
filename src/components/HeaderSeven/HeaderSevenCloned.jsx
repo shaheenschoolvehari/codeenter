@@ -22,7 +22,7 @@ const HeaderSevenCloned = () => {
                         <Link href='/home1'>
                             <Image
                                 src={logo6}
-                                alt='Tolak HTML'
+                                alt='Code Enter'
                                 width={184}
                                 style={{ height: "auto" }}
                             />

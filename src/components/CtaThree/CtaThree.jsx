@@ -14,7 +14,7 @@ const CtaThree = () => {
                     <Row >
                         <Col lg={5} className="wow fadeInUp" data-aos="fade-up" data-aos-delay="200">
                             <div className="cta-three__image">
-                                <Image src={image} alt="tolak" />
+                                <Image src={image} alt="Code Enter" />
                             </div>
                         </Col>
                         <Col lg={7} className="wow fadeInRight" data-aos="fade-left" data-aos-delay="00ms">
@@ -28,7 +28,7 @@ const CtaThree = () => {
 
                                 <div className="mc-form__response"></div>
                                 <div className="cta-three__author">
-                                    {author.map((a, i) => <Image key={i} src={a} alt="tolak" />)}
+                                    {author.map((a, i) => <Image key={i} src={a} alt="Code Enter" />)}
                                     <a className="cta-three__author__rm" href={href}>More <span className="fas fa-arrow-right"></span></a>
                                 </div>
                                 <p className="cta-three__content__text">{text} <a href={href}>( Let’s Started )</a></p>

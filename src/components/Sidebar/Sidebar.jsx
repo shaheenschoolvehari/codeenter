@@ -17,7 +17,7 @@ const Sidebar = () => {
                 <div onClick={toggleSidebar} className="sidebar-one__close"><i className="icon-close"></i></div>
                 <div className="sidebar-one__logo">
                     <Link href="/" aria-label="logo image">
-                        <Image src={logo_light} alt="Tolak HTML" width={184} />
+                        <Image src={logo_light} alt="Code Enter" width={200} height={45} style={{ width: "auto", height: "45px", objectFit: "contain" }} />
                     </Link>
                 </div>
                 <p className="sidebar-one__text">

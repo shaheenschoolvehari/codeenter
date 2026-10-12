@@ -70,7 +70,7 @@ const BlogGridSidebar = () => {
                                                 <p className='blog-card-three__text'>{text}</p>
                                                 <div className='blog-card-three__meta'>
                                                     <div className='blog-card-three__meta__author'>
-                                                        <Image src={authorImage} alt='tolak' />
+                                                        <Image src={authorImage} alt='Code Enter' />
                                                         {designation}:<Link href={href}>{author}</Link>
                                                     </div>
                                                     <div className='blog-card-three__meta__comments'>

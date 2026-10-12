@@ -67,7 +67,7 @@ const ContactOne = ({ rtl }) => {
                     </Col>
                     <Col lg={4}>
                         <div className="contact-one__image wow fadeInRight" data-aos='fade-left' data-aos-delay="200">
-                            <Image src={rtl ? imageRtl : image} alt="tolak" />
+                            <Image src={rtl ? imageRtl : image} alt="Code Enter" />
                         </div>
                     </Col>
                 </Row>
@@ -77,7 +77,7 @@ const ContactOne = ({ rtl }) => {
                     <Row >
                         <Col lg={6} className="col-lg-6">
                             <div className="contact-one__image-two">
-                                <Image src={imageTwo} alt="tolak" />
+                                <Image src={imageTwo} alt="Code Enter" />
                             </div>
                         </Col>
                         <Col lg={6} className="col-lg-6">

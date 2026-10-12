@@ -111,7 +111,7 @@ const MainSliderThree = () => {
                         <div className='row'>
                           <div className='col-lg-6'>
                             <div className='main-slider-three__thumb'>
-                              <Image src={thumb} alt='tolak' />
+                              <Image src={thumb} alt='Code Enter' />
                             </div>
                           </div>
                           <div className='col-lg-6'>

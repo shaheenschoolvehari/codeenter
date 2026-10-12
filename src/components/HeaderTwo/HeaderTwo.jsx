@@ -26,7 +26,7 @@ const HeaderTwo = () => {
                     <div className="main-header-two__inner__bg-two" style={{ backgroundImage: `url(${bg.src})` }}></div>
                     <div className="main-header-two__logo">
                         <a href="/">
-                            <Image src={logo_light} alt="Tolak HTML" width={184} style={{ height: "auto" }} />
+                            <Image src={logo_light} alt="Code Enter" width={184} style={{ height: "auto" }} />
                         </a>
                     </div>
 

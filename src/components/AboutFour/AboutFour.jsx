@@ -43,13 +43,13 @@ const AboutFour = () => {
             <Col xl={6} className=''>
 
               <div className='about-four__image'>
-                <Image src={image1} alt='tolak' />
-                <Image src={image2} alt='tolak' />
+                <Image src={image1} alt='Code Enter' />
+                <Image src={image2} alt='Code Enter' />
                 <Tilt
                   className='about-four__image__shape tolak-tilt'
                   options={defaultOptions}
                 >
-                  <Image src={shape} alt='tolak' />
+                  <Image src={shape} alt='Code Enter' />
                 </Tilt>
                 <Tilt
                   className='about-four__fact count-box tolak-tilt' options={defaultOptions}
@@ -111,7 +111,7 @@ const AboutFour = () => {
                             ))}
                           </ul>
                           <div className='about-four__content__shape'>
-                            <Image src={shape} alt='tolak' />
+                            <Image src={shape} alt='Code Enter' />
                           </div>
                           <Row>
                             <Col md={5}>

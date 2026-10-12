@@ -15,7 +15,7 @@ export const heroSectionData = {
         href: "/",
     },
     title: "Creative. Powerful. \n Customizable.",
-    text: "Building a website with the Tolak NextJS \n Template is super fast and easy.",
+    text: "Building a website with the Code Enter \n Template is super fast and easy.",
     button: {
         text: "Purchase Template",
         href: "#",

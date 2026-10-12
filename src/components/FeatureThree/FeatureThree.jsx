@@ -54,7 +54,7 @@ const FeatureThree = () => {
                 data-aos-delay='100'
               >
                 <div className='feature-three__item__image'>
-                  <Image src={image} alt='tolak' />
+                  <Image src={image} alt='Code Enter' />
                   <Link href={href} className='feature-three__item__link'>
                     <i className='icon-right-arrow'></i>
                   </Link>

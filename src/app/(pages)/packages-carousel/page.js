@@ -10,7 +10,7 @@ import React from 'react';
 
 
 export const metadata = {
-    title: "Package Carousel || Tolak || NextJS Template For It Solution & Business",
+    title: "Package Carousel || Code Enter || NextJS Template For It Solution & Business",
     description:
         "Tolak is a modern NextJS Template for Business, It Solution, Corporate, Agency, Portfolio shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses.",
 };

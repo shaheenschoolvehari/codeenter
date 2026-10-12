@@ -51,10 +51,10 @@ const AboutThree = () => {
             <Col lg={6}>
               <div className='about-three__image'>
                 <div className='about-three__image__shape'>
-                  <Image src={shape} alt='tolak' />
+                  <Image src={shape} alt='Code Enter' />
                 </div>
                 <div className='about-three__image__shape-two'>
-                  <Image src={shape2} alt='tolak' />
+                  <Image src={shape2} alt='Code Enter' />
                 </div>
                 <Row>
                   <Col md={6}>
@@ -63,7 +63,7 @@ const AboutThree = () => {
                       onExit={() => setCounterOn(false)}
                     >
                       <div className='about-three__image__one'>
-                        <Image src={image1} alt='tolak' />
+                        <Image src={image1} alt='Code Enter' />
                       </div>
                       <div className='about-three__fact count-box'>
                         <div className='about-three__fact__icon'>
@@ -85,7 +85,7 @@ const AboutThree = () => {
                   </Col>
                   <Col md={6}>
                     <div className='about-three__image__two'>
-                      <Image src={image2} alt='tolak' />
+                      <Image src={image2} alt='Code Enter' />
                     </div>
                   </Col>
                 </Row>
@@ -146,9 +146,9 @@ const AboutThree = () => {
                   <Col lg={7}>
                     <div className='about-three__content__author'>
                       <div className='about-three__content__author__image'>
-                        <Image src={author} alt='tolak' />
+                        <Image src={author} alt='Code Enter' />
                       </div>
-                      <Image src={aboutSign} alt='tolak' />
+                      <Image src={aboutSign} alt='Code Enter' />
                       <p className='about-three__content__author__text'>
                         {authorText}
                       </p>

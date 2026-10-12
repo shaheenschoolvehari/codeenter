@@ -14,7 +14,7 @@ const CtaSix = () => {
             <div className='cta-six__content'>
               <div className='cta-six__author'>
                 {author.map((a, i) => (
-                  <Image key={i} src={a} alt='tolak' />
+                  <Image key={i} src={a} alt='Code Enter' />
                 ))}
 
                 <Link className='cta-six__author__rm' href={href}>
@@ -28,7 +28,7 @@ const CtaSix = () => {
           </Col>
           <Col lg={6} className='wow fadeInUp' data-aos="fade-up" data-aos-delay='200'>
             <div className='cta-six__image'>
-              <Image src={image} alt='tolak' />
+              <Image src={image} alt='Code Enter' />
             </div>
           </Col>
         </Row>

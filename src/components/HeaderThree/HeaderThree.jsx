@@ -22,7 +22,7 @@ const HeaderThree = ({ dark }) => {
             <Link href='/home1'>
               <Image
                 src={dark ? logo_light : main_logo}
-                alt='Tolak HTML'
+                alt='Code Enter'
                 width={184}
                 style={{ height: "auto" }}
               />
