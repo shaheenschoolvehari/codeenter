@@ -112,14 +112,14 @@ const footerData = {
     { id: 1, href: "/about", title: "Why choose us" },
     { id: 2, href: "/aservices", title: "Our Service" },
     { id: 3, href: "/reviews", title: "Partners" },
-    { id: 4, href: "/contact", title: "Core values" },
+    { id: 4, href: "#contact", title: "Core values" },
     { id: 5, href: "/project", title: "Our projects" },
   ],
   quickLinks: [
     { id: 1, href: "/gallery", title: "Gallery" },
     { id: 2, href: "/packages", title: "Packages" },
     { id: 3, href: "/team", title: "Team" },
-    { id: 4, href: "/contact", title: "Contact" },
+    { id: 4, href: "#contact", title: "Contact" },
     { id: 5, href: "/blog-grid-right", title: "News" },
   ],
   bottomLinks: [

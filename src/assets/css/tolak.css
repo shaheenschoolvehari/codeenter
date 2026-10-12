@@ -4459,43 +4459,21 @@ h6 {
 }
 
 .topbar-one::after {
-  position: absolute;
-  right: 0;
-  top: 0;
-  content: "";
-  width: 16.4%;
-  height: 100%;
-  background-color: var(--tolak-white, #fff);
-}
-
-@media (max-width: 1339px) {
-  .topbar-one::after {
-    display: none;
-  }
+  display: none;
 }
 
 .topbar-one__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 0 15px;
-}
-
-@media (min-width: 1500px) and (max-width: 1799px) {
-  .topbar-one__inner {
-    max-width: 1070px;
-  }
+  padding: 14px 45px 14px 15px;
+  width: 100%;
 }
 
 @media (max-width: 1499px) {
   .topbar-one__inner {
-    padding-right: 145px;
-  }
-}
-
-@media (max-width: 1339px) {
-  .topbar-one__inner {
-    padding-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 

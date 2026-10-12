@@ -291,7 +291,7 @@ const navItems = [
   {
     id: 6,
     name: "Contact",
-    href: "/contact",
+    href: "#contact",
   },
 ];
 

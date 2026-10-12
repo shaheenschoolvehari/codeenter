@@ -11,7 +11,7 @@ const { icons } = headerData
 const TopBar = () => {
     return (
         <div className="topbar-one" id="home">
-            <Container>
+            <Container fluid>
                 <div className="topbar-one__inner">
                     <ul className="list-unstyled topbar-one__info">
                         {icons.map(({ id, icon, content, subHref, href }) => (
