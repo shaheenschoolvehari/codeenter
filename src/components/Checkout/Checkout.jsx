@@ -108,7 +108,7 @@ const CheckoutPage = () => {
     return (
         <section className="checkout-page">
             <Container>
-                <div className="checkout-page__notice">Returning Customer? <a href="login">Click here to Login</a></div>
+                <div className="checkout-page__notice">Returning Customer? <a href="#">Click here to Login</a></div>
                 <Row >
                     <Col xl={6} lg={6} >
                         <div className="checkout-page__billing-address">

@@ -63,8 +63,8 @@ const ProductsDetails = () => {
                                 </div>
                             </div>
                             <div className="product-details__buttons">
-                                <Link href="/cart" className="tolak-btn"><b>Add to Cart</b><span></span></Link>
-                                <Link href="/cart" className="tolak-btn"><b>Add to wishlist</b><span></span></Link>
+                                <Link href="#" className="tolak-btn"><b>Add to Cart</b><span></span></Link>
+                                <Link href="#" className="tolak-btn"><b>Add to wishlist</b><span></span></Link>
                             </div>
                             <div className="product-details__socials">
                                 <h4 className="product-details__socials__title">Share with friends</h4>

@@ -2,7 +2,7 @@ import paypal from '@/assets/images/products/paypal-1.jpg'
 const checkoutData = {
     notice: {
         text: "Returning Customer?",
-        href: "/login",
+        href: "#",
         linkText: "Click here to Login",
     },
     billingDetails: {
