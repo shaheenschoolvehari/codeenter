@@ -81,7 +81,7 @@ const MainSliderOne = () => {
                   </Tilt>
                   <div
                     className='main-slider-one__bg'
-                    style={{ backgroundImage: `url(${bg.src})` }}
+                    style={{ backgroundImage: `url(${typeof bg === 'object' && bg?.src ? bg.src : bg || '/assets/images/backgrounds/hero-slider-bg.jpg'})` }}
                   ></div>
                   <svg
                     className='main-slider-one__bg-svg'
