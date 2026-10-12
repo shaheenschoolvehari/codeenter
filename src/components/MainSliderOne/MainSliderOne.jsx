@@ -6,10 +6,6 @@ import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import ScrollTrigger from "react-scroll-trigger";
-import CountUp from "react-countup";
-import VisibilityCountUp from "../VisibilityCountUp/VisibilityCountUp";
-import ScrollTriggerCount from "../ScrollTrigger/ScrollTriggerCount";
 import { Tilt } from "react-tilt";
 const TinySlider = dynamic(() => import("tiny-slider-react"), {
   ssr: false,
@@ -17,8 +13,6 @@ const TinySlider = dynamic(() => import("tiny-slider-react"), {
 
 const MainSliderOne = () => {
   const [mounted, setMounted] = useState(false);
-
-  const [counterOn, setCounterOn] = useState(false);
 
 
   useEffect(() => {
@@ -228,25 +222,6 @@ const MainSliderOne = () => {
           )}
         </TinySlider>
       }
-
-
-      <div
-        className='main-slider-one__project wow fadeInUp' data-aos='fade-up'
-        data-aos-delay='200'
-      >
-        <div className='main-slider-one__project__icon'>
-          <span className='icon-check-mark'></span>
-        </div>
-
-        <h5 className='main-slider-one__project__number count-box'>
-
-
-          <ScrollTriggerCount count={1283} />
-
-          k+
-        </h5>
-        <p className='main-slider-one__project__title'>Complete Projects</p>
-      </div>
 
     </section>
   );
