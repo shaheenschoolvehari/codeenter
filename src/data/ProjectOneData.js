@@ -10,69 +10,68 @@ const projectOneData = {
         {
             id: 1,
             image: image1,
-            href: "project-details",
+            href: "#project",
             cats: "Solution",
-            catsHref: "project",
+            catsHref: "#project",
             title: "Technology website development"
         },
         {
             id: 2,
             image: image2,
-            href: "project-details",
+            href: "#project",
             cats: "Business",
-            catsHref: "project",
+            catsHref: "#project",
             title: "Technology website development"
         },
         {
             id: 3,
             image: image3,
-            href: "project-details",
-            cats: "Mareting",
-            catsHref: "project",
+            href: "#project",
+            cats: "Marketing",
+            catsHref: "#project",
             title: "Technology website development"
         },
         {
             id: 4,
             image: image4,
-            href: "project-details",
+            href: "#project",
             cats: "Software",
-            catsHref: "project",
+            catsHref: "#project",
             title: "Technology website development"
         },
         {
             id: 5,
             image: image1,
-            href: "project-details",
+            href: "#project",
             cats: "Solution",
-            catsHref: "project",
+            catsHref: "#project",
             title: "Technology website development"
         },
         {
             id: 6,
             image: image2,
-            href: "project-details",
+            href: "#project",
             cats: "Business",
-            catsHref: "project",
+            catsHref: "#project",
             title: "Technology website development"
         },
         {
             id: 7,
             image: image3,
-            href: "project-details",
-            cats: "Mareting",
-            catsHref: "project",
+            href: "#project",
+            cats: "Marketing",
+            catsHref: "#project",
             title: "Technology website development"
         },
         {
             id: 8,
             image: image4,
-            href: "project-details",
+            href: "#project",
             cats: "Software",
-            catsHref: "project",
+            catsHref: "#project",
             title: "Technology website development"
         }
     ]
+};
 
-}
-
-export default projectOneData
+export default projectOneData;

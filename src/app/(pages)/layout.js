@@ -20,48 +20,13 @@ import ThemeProvider from "@/Provider/ThemeProvider";
 import "aos/dist/aos.css";
 
 import "@/assets/css/tolak.css";
-import "@/assets/css/tolak-dark.css";
-import { usePathname } from "next/navigation";
-
-import { useEffect, useState } from "react";
-
-
 
 export default function RootLayout({ children }) {
-  const pathname = usePathname();
-  const [themeState, setThemeState] = useState("light");
-
-  useEffect(() => {
-    if (pathname === "/home1-dark" || pathname === "/home2-dark" || pathname === "/home3-dark" || pathname === "/home4-dark") {
-      setThemeState("dark");
-    } else {
-      setThemeState("light");
-    }
-  }, [pathname]);
-
-
-  // useEffect(() => {
-  //   if (themeState === "dark") {
-  //     import("@/assets/css/tolak-dark.css");
-  //   }
-  // }, [themeState]);
-
-  // const themes = {
-  //   dark: "/_next/static/css/tolak-dark.css",
-  //   light: "/_next/static/css/tolak.css",
-  // };
   return (
     <html lang='en'>
-
-      <body className={`custom-cursor ${pathname === "/home5" ? 'home5' : pathname === "/home5-one" ? 'home5' : pathname === "/home6" ? "home6" : pathname === "/home6-one" ? "home6" : pathname === "/home7" ? 'home7' : pathname === "/home7-one" ? 'home7' : pathname === "/home-boxed" ? "boxed-wrapper" : ''} ${themeState}`}>
-
-        {/* <ThemeSwitcherProvider themeMap={themes} defaultTheme={themeState}> */}
-
+      <body className='custom-cursor light'>
         <ThemeProvider>{children}</ThemeProvider>
-        {/* </ThemeSwitcherProvider> */}
       </body>
-
-
-    </html >
+    </html>
   );
 }

@@ -20,7 +20,7 @@ const ctaOneData = {
     text: "Every team has a culture and set of ct ations that have either been aed orsve naturally evolved.",
     conText: "29,0000 customers with our services",
     conLinkText: "( Let’s Started )",
-    href: "contact"
+    href: "#contact"
 
 
 

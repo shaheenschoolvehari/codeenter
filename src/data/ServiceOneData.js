@@ -15,7 +15,7 @@ const serviceOneData = {
             icon: "icon-cooperation",
             title: "Business of Growth",
             text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
-            href: "business-growth"
+            href: "#contact"
         },
         {
             id: 2,
@@ -23,7 +23,7 @@ const serviceOneData = {
             icon: "icon-ads-campaign",
             title: "Solution to Business",
             text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
-            href: "business-solution"
+            href: "#contact"
         },
         {
             id: 3,
@@ -31,7 +31,7 @@ const serviceOneData = {
             icon: "icon-headhunter",
             title: "Markting of Solution",
             text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
-            href: "marketing-solution"
+            href: "#contact"
         },
         {
             id: 4,
@@ -39,7 +39,7 @@ const serviceOneData = {
             icon: "icon-agency",
             title: "Technology Services",
             text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
-            href: "technology-services"
+            href: "#contact"
         },
         {
             id: 5,
@@ -47,7 +47,7 @@ const serviceOneData = {
             icon: "icon-advertisig-agency",
             title: "Marketing Business",
             text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
-            href: "business-marketing"
+            href: "#contact"
         },
         {
             id: 6,
@@ -55,7 +55,7 @@ const serviceOneData = {
             icon: "icon-management",
             title: "Support of Business",
             text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
-            href: "business-support"
+            href: "#contact"
         }
     ]
 }

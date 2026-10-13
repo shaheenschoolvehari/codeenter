@@ -109,24 +109,25 @@ const footerData = {
   },
   widgetSocial,
   services: [
-    { id: 1, href: "/about", title: "Why choose us" },
-    { id: 2, href: "/aservices", title: "Our Service" },
-    { id: 3, href: "/reviews", title: "Partners" },
-    { id: 4, href: "#contact", title: "Core values" },
-    { id: 5, href: "/project", title: "Our projects" },
+    { id: 1, href: "#about", title: "About Us" },
+    { id: 2, href: "#services", title: "Our Services" },
+    { id: 3, href: "#team", title: "Expert Team" },
+    // { id: 4, href: "#project", title: "Our Projects" }, // Future update: Uncomment when projects are ready
+    { id: 5, href: "#contact", title: "Contact Us" },
   ],
   quickLinks: [
-    { id: 1, href: "/gallery", title: "Gallery" },
-    { id: 2, href: "/packages", title: "Packages" },
-    { id: 3, href: "/team", title: "Team" },
-    { id: 4, href: "#contact", title: "Contact" },
-    { id: 5, href: "/blog-grid-right", title: "News" },
+    { id: 1, href: "#home", title: "Home" },
+    { id: 2, href: "#services", title: "Services" },
+    { id: 3, href: "#about", title: "About Us" },
+    { id: 4, href: "#team", title: "Team" },
+    // { id: 5, href: "#project", title: "Projects" }, // Future update: Uncomment when projects are ready
+    { id: 6, href: "#contact", title: "Contact" },
   ],
   bottomLinks: [
-    { id: 1, href: "/about", title: "About Us" },
-    { id: 2, href: "/services", title: "Services" },
-    { id: 3, href: "/blog-list-right", title: "News" },
-    { id: 4, href: "/portfolio", title: "Portfolio" },
+    { id: 1, href: "#home", title: "Home" },
+    { id: 2, href: "#services", title: "Services" },
+    { id: 3, href: "#about", title: "About Us" },
+    { id: 4, href: "#contact", title: "Contact" },
   ],
 };
 

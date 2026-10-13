@@ -5,6 +5,7 @@ import image4 from '@/assets/images/team/team-1-4.jpg'
 import image5 from '@/assets/images/team/team-1-5.jpg'
 import image6 from '@/assets/images/team/team-1-6.jpg'
 import { faFacebookF, faInstagram, faPinterestP, faTwitter } from '@fortawesome/free-brands-svg-icons';
+
 const teamOneData = {
     tagLine: "Our Team Member",
     title: "Meet Great Customer Service",
@@ -18,11 +19,10 @@ const teamOneData = {
                 { id: 2, icon: faPinterestP, link: "https://pinterest.com", name: "Pinterest" },
                 { id: 3, icon: faTwitter, link: "https://twitter.com", name: "Twitter" },
                 { id: 4, icon: faInstagram, link: "https://instagram.com", name: "Instagram" },
-            ], title: "Lorata Barsa",
-            href: "team-details",
+            ],
+            title: "Lorata Barsa",
+            href: "#team",
             designation: "Founder"
-
-
         },
         {
             id: 2,
@@ -32,11 +32,10 @@ const teamOneData = {
                 { id: 2, icon: faPinterestP, link: "https://pinterest.com", name: "Pinterest" },
                 { id: 3, icon: faTwitter, link: "https://twitter.com", name: "Twitter" },
                 { id: 4, icon: faInstagram, link: "https://instagram.com", name: "Instagram" },
-            ], title: "Moras Batas",
-            href: "team-details",
+            ],
+            title: "Moras Batas",
+            href: "#team",
             designation: "Manager"
-
-
         },
         {
             id: 3,
@@ -46,11 +45,10 @@ const teamOneData = {
                 { id: 2, icon: faPinterestP, link: "https://pinterest.com", name: "Pinterest" },
                 { id: 3, icon: faTwitter, link: "https://twitter.com", name: "Twitter" },
                 { id: 4, icon: faInstagram, link: "https://instagram.com", name: "Instagram" },
-            ], title: "Korata Mana",
-            href: "team-details",
+            ],
+            title: "Korata Mana",
+            href: "#team",
             designation: "Founder"
-
-
         },
         {
             id: 4,
@@ -60,11 +58,10 @@ const teamOneData = {
                 { id: 2, icon: faPinterestP, link: "https://pinterest.com", name: "Pinterest" },
                 { id: 3, icon: faTwitter, link: "https://twitter.com", name: "Twitter" },
                 { id: 4, icon: faInstagram, link: "https://instagram.com", name: "Instagram" },
-            ], title: "Christine Eve",
-            href: "team-details",
-            designation: "Founder"
-
-
+            ],
+            title: "Moras Batas",
+            href: "#team",
+            designation: "Manager"
         },
         {
             id: 5,
@@ -74,11 +71,10 @@ const teamOneData = {
                 { id: 2, icon: faPinterestP, link: "https://pinterest.com", name: "Pinterest" },
                 { id: 3, icon: faTwitter, link: "https://twitter.com", name: "Twitter" },
                 { id: 4, icon: faInstagram, link: "https://instagram.com", name: "Instagram" },
-            ], title: "David Copers",
-            href: "team-details",
-            designation: "Manager"
-
-
+            ],
+            title: "Soran Baras",
+            href: "#team",
+            designation: "Founder"
         },
         {
             id: 6,
@@ -88,14 +84,12 @@ const teamOneData = {
                 { id: 2, icon: faPinterestP, link: "https://pinterest.com", name: "Pinterest" },
                 { id: 3, icon: faTwitter, link: "https://twitter.com", name: "Twitter" },
                 { id: 4, icon: faInstagram, link: "https://instagram.com", name: "Instagram" },
-            ], title: "Kevin Martin",
-            href: "team-details",
-            designation: "Founder"
-
-
+            ],
+            title: "Harat Paras",
+            href: "#team",
+            designation: "Manager"
         }
     ]
+};
 
-
-}
 export default teamOneData;

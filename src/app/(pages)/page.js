@@ -13,8 +13,6 @@ import PojectOne from "@/components/ProjectOne/ProjectOne";
 import ClientCarousel from "@/components/ClientCarousel/ClientCarousel";
 import SlideText from "@/components/SlideText/SlideText";
 import ContactOne from "@/components/ContactOne/ContactOne";
-import BlogOne from "@/components/BlogOne/BlogOne";
-import Mail from "@/components/Mail/Mail";
 import TopBar from "@/components/TopBar/TopBar";
 import Footer from "@/components/Footer/Footer";
 import HeaderSingle from "@/components/Header/HeaderSingle";
@@ -42,12 +40,10 @@ const page = () => {
       <TeamOne />
       <OurSolution />
       <FeatureTwo />
-      <PojectOne />
+      {/* <PojectOne /> -- Future update: Uncomment to display Projects section */}
       <ClientCarousel />
       <SlideText />
       <ContactOne />
-      <BlogOne />
-      <Mail />
       <Footer />
     </Layout>
   );

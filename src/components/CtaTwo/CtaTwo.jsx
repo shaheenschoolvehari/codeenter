@@ -36,7 +36,7 @@ const CtaTwo = ({ two, rtl }) => {
                                             {t} <br />
                                         </Fragment>
                                     ))}</p>
-                                <Link className="cta-two__content__rm" href="contact">Read More<span className="fas fa-angle-double-right"></span></Link>
+                                <Link className="cta-two__content__rm" href="#contact">Read More<span className="fas fa-angle-double-right"></span></Link>
                             </div>
                         </Col>
                         <Col lg={4} className="wow fadeInUp position-relative" data-aos="fade-up" data-aos-delay="200">

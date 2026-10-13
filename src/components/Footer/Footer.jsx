@@ -47,49 +47,26 @@ const Footer = () => {
                         </div>
                     </Col>
                     <Col md={6} lg={4}>
-                        <div className="footer-widget footer-widget--posts">
-                            <h2 className="footer-widget__title">Recent Posts</h2>
-                            <ul className="footer-widget__posts list-unstyled">
-                                {
-                                    posts.posts.map(({ id, title, meta, image, href }) => <li className="footer-widget__posts__item" key={id}>
-                                        <div className="footer-widget__posts__image">
-                                            <Image src={image} alt="" />
-                                        </div>
-                                        <div className="footer-widget__posts__content">
-                                            <p className="footer-widget__posts__meta">{meta}</p>
-
-                                            <h4 className="footer-widget__posts__title"><Link href={href}>{title}</Link></h4>
-                                        </div>
-                                    </li>
-                                    )
-                                }
-
-                            </ul>
-                        </div>
-                    </Col>
-                    <Col md={6} lg={2} >
                         <div className="footer-widget footer-widget--links">
-                            <h2 className="footer-widget__title">Service</h2>
+                            <h2 className="footer-widget__title">Our Services</h2>
                             <ul className="list-unstyled footer-widget__links">
                                 {services.map(({ id, title, href }) => (
                                     <li key={id}>
                                         <Link href={href}>{title}</Link>
                                     </li>
                                 ))}
-
                             </ul>
                         </div>
                     </Col>
-                    <Col md={6} lg={2}>
+                    <Col md={6} lg={4}>
                         <div className="footer-widget footer-widget--links footer-widget--last">
-                            <h2 className="footer-widget__title">Quick Link</h2>
+                            <h2 className="footer-widget__title">Quick Links</h2>
                             <ul className="list-unstyled footer-widget__links">
                                 {quickLinks.map(({ id, title, href }) => (
                                     <li key={id}>
                                         <Link href={href}>{title}</Link>
                                     </li>
                                 ))}
-
                             </ul>
                         </div>
                     </Col>

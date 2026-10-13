@@ -88,7 +88,7 @@ const AboutOne = ({ rtl }) => {
                                 </ul>
                                 <div className="clearfix"></div>
                                 <div className="about-one__content__btn">
-                                    <Link href="about" className="tolak-btn"><b>About More</b><span></span></Link>
+                                    <Link href="#contact" className="tolak-btn"><b>Contact Us</b><span></span></Link>
                                     <h5 className="about-one__content__btn__text">Watching video</h5>
                                     <Image className="about-one__content__btn__arrow" src={rtl ? arrowRtl : arrow} alt="Code Enter" />
                                 </div>

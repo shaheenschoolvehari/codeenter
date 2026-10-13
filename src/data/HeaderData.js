@@ -27,9 +27,8 @@ const singleNavItems = [
   { name: 'Services', href: 'services', },
   { name: 'About', href: 'about', },
   { name: 'Team', href: 'team', },
-  { name: 'Project', href: 'project', },
+  // { name: 'Project', href: 'project', }, // Future update: Uncomment when projects are ready
   { name: 'Contact', href: 'contact', },
-  { name: 'Blog', href: 'blog', },
 ];
 const singleNavItemsTwo = [
   { name: 'Home', href: 'home', },

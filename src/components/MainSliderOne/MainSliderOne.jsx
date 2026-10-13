@@ -14,14 +14,9 @@ const TinySlider = dynamic(() => import("tiny-slider-react"), {
 const MainSliderOne = () => {
   const [mounted, setMounted] = useState(false);
 
-
   useEffect(() => {
     setMounted(true);
-
   }, []);
-
-
-
 
   if (!mounted) {
     return null;
@@ -41,12 +36,9 @@ const MainSliderOne = () => {
     autoplayTimeout: 7000,
     autoHeight: true,
     controls: false,
-
     gutter: 0,
     autoplayButton: false,
     autoplayButtonOutput: false,
-
-
   };
 
   const defaultOptions = {
@@ -57,165 +49,178 @@ const MainSliderOne = () => {
     maxGlare: 0,
   };
 
-
   return (
     <section className='main-slider-one' id='home' >
-
-
       {
         mounted && <TinySlider settings={settings} className='main-slider-one__carousel'>
           {mainSliderOneData.map(
-            ({ id, shape, bg, subTitle, title, text, social }) => (
+            ({ id, shape, bg, subTitle, title, text, social, showContent, hasOverlay }) => (
               <div className='item' key={id}>
-                <div className='main-slider-one__item'>
-                  <Tilt
-                    className='main-slider-one__shape tolak-tilt' options={defaultOptions}
-                  >
-                    <Image src={shape} alt='Code Enter' />
-                  </Tilt>
+                <div className={`main-slider-one__item ${!showContent ? 'main-slider-one__item--graphic' : ''}`}>
+                  {showContent && shape && (
+                    <Tilt
+                      className='main-slider-one__shape tolak-tilt' options={defaultOptions}
+                    >
+                      <Image src={shape} alt='Code Enter' />
+                    </Tilt>
+                  )}
                   <div
-                    className='main-slider-one__bg'
+                    className={`main-slider-one__bg ${!hasOverlay ? 'main-slider-one__bg--no-overlay' : ''}`}
                     style={{ backgroundImage: `url(${typeof bg === 'object' && bg?.src ? bg.src : bg || '/assets/images/backgrounds/hero-slider-bg.jpg'})` }}
                   ></div>
-                  <svg
-                    className='main-slider-one__bg-svg'
-                    xmlns='http://www.w3.org/2000/svg'
-                    xmlnsXlink='http://www.w3.org/1999/xlink'
-                  >
-                    <rect
-                      className='circle0 steap'
-                      x='5.2%'
-                      y='0'
-                      rx='0'
-                      ry='0'
-                      width='100%'
-                      height='100%'
-                    />
-                    <rect
-                      className='circle1 steap'
-                      x='15.6%'
-                      y='0'
-                      rx='0'
-                      ry='0'
-                      width='100%'
-                      height='100%'
-                    />
-                    <rect
-                      className='circle2 steap'
-                      x='26%'
-                      y='0'
-                      rx='0'
-                      ry='0'
-                      width='100%'
-                      height='100%'
-                    />
-                    <rect
-                      className='circle3 steap'
-                      x='36.4%'
-                      y='0'
-                      rx='0'
-                      ry='0'
-                      width='100%'
-                      height='100%'
-                    />
-                    <rect
-                      className='circle4 steap'
-                      x='46.8%'
-                      y='0'
-                      rx='0'
-                      ry='0'
-                      width='100%'
-                      height='100%'
-                    />
-                    <rect
-                      className='circle5 steap'
-                      x='57%'
-                      y='0'
-                      rx='0'
-                      ry='0'
-                      width='100%'
-                      height='100%'
-                    />
-                    <rect
-                      className='circle6 steap'
-                      x='67.7%'
-                      y='0'
-                      rx='0'
-                      ry='0'
-                      width='100%'
-                      height='100%'
-                    />
-                    <rect
-                      className='circle7 steap'
-                      x='78.1%'
-                      y='0'
-                      rx='0'
-                      ry='0'
-                      width='100%'
-                      height='100%'
-                    />
-                    <rect
-                      className='circle8 steap'
-                      x='88.5%'
-                      y='0'
-                      rx='0'
-                      ry='0'
-                      width='100%'
-                      height='100%'
-                    />
-                    <rect
-                      className='circle9 steap'
-                      x='100%'
-                      y='0'
-                      rx='0'
-                      ry='0'
-                      width='100%'
-                      height='100%'
-                    />
-                  </svg>
+                  {showContent && (
+                    <svg
+                      className='main-slider-one__bg-svg'
+                      xmlns='http://www.w3.org/2000/svg'
+                      xmlnsXlink='http://www.w3.org/1999/xlink'
+                    >
+                      <rect
+                        className='circle0 steap'
+                        x='5.2%'
+                        y='0'
+                        rx='0'
+                        ry='0'
+                        width='100%'
+                        height='100%'
+                      />
+                      <rect
+                        className='circle1 steap'
+                        x='15.6%'
+                        y='0'
+                        rx='0'
+                        ry='0'
+                        width='100%'
+                        height='100%'
+                      />
+                      <rect
+                        className='circle2 steap'
+                        x='26%'
+                        y='0'
+                        rx='0'
+                        ry='0'
+                        width='100%'
+                        height='100%'
+                      />
+                      <rect
+                        className='circle3 steap'
+                        x='36.4%'
+                        y='0'
+                        rx='0'
+                        ry='0'
+                        width='100%'
+                        height='100%'
+                      />
+                      <rect
+                        className='circle4 steap'
+                        x='46.8%'
+                        y='0'
+                        rx='0'
+                        ry='0'
+                        width='100%'
+                        height='100%'
+                      />
+                      <rect
+                        className='circle5 steap'
+                        x='57%'
+                        y='0'
+                        rx='0'
+                        ry='0'
+                        width='100%'
+                        height='100%'
+                      />
+                      <rect
+                        className='circle6 steap'
+                        x='67.7%'
+                        y='0'
+                        rx='0'
+                        ry='0'
+                        width='100%'
+                        height='100%'
+                      />
+                      <rect
+                        className='circle7 steap'
+                        x='78.1%'
+                        y='0'
+                        rx='0'
+                        ry='0'
+                        width='100%'
+                        height='100%'
+                      />
+                      <rect
+                        className='circle8 steap'
+                        x='88.5%'
+                        y='0'
+                        rx='0'
+                        ry='0'
+                        width='100%'
+                        height='100%'
+                      />
+                      <rect
+                        className='circle9 steap'
+                        x='100%'
+                        y='0'
+                        rx='0'
+                        ry='0'
+                        width='100%'
+                        height='100%'
+                      />
+                    </svg>
+                  )}
 
-                  <Container>
-                    <Row>
-                      <Col md={12}>
-                        <div className='main-slider-one__content'>
-                          <h5 className='main-slider-one__sub-title'>
-                            {subTitle}
-                          </h5>
-                          <h2
-                            className='main-slider-one__title'
-                            dangerouslySetInnerHTML={{ __html: title }}
-                          ></h2>
-                          <div className='main-slider-one__text'>
-                            <p
-                              className='main-slider-one__text__one'
-                              dangerouslySetInnerHTML={{ __html: text }}
-                            ></p>
-                          </div>
-                          <div className='main-slider-one__bottom'>
-                            <div className='main-slider-one__btn'>
-                              <a
-                                href='services.html'
-                                className='tolak-btn tolak-btn--base'
-                              >
-                                <b>Contact Now</b>
-                                <span></span>
-                              </a>
+                  {showContent ? (
+                    <Container>
+                      <Row>
+                        <Col md={12}>
+                          <div className='main-slider-one__content'>
+                            <h5 className='main-slider-one__sub-title'>
+                              {subTitle}
+                            </h5>
+                            <h2
+                              className='main-slider-one__title'
+                              dangerouslySetInnerHTML={{ __html: title }}
+                            ></h2>
+                            <div className='main-slider-one__text'>
+                              <p
+                                className='main-slider-one__text__one'
+                                dangerouslySetInnerHTML={{ __html: text }}
+                              ></p>
                             </div>
-                            <div className='main-slider-one__social'>
-                              {social.map(({ id, link, icon, name }) => (
-                                <Link key={id} href={link}>
-                                  <FontAwesomeIcon icon={icon} />
-                                  <span className='sr-only'>{name}</span>
-                                </Link>
-                              ))}
+                            <div className='main-slider-one__bottom'>
+                              <div className='main-slider-one__btn'>
+                                <a
+                                  href='#contact'
+                                  className='tolak-btn tolak-btn--base'
+                                >
+                                  <b>Contact Now</b>
+                                  <span></span>
+                                </a>
+                              </div>
+                              <div className='main-slider-one__social'>
+                                {social?.map(({ id, link, icon, name }) => (
+                                  <Link key={id} href={link}>
+                                    <FontAwesomeIcon icon={icon} />
+                                    <span className='sr-only'>{name}</span>
+                                  </Link>
+                                ))}
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      </Col>
-                    </Row>
-                  </Container>
-
-                  <div className='main-slider-one__floating-text'>Code Enter</div>
+                        </Col>
+                      </Row>
+                    </Container>
+                  ) : (
+                    <Link
+                      href='#contact'
+                      aria-label='Contact Code Enter'
+                      style={{
+                        position: 'absolute',
+                        inset: 0,
+                        zIndex: 10,
+                        cursor: 'pointer',
+                        display: 'block'
+                      }}
+                    />
+                  )}
                 </div>
               </div>
             )

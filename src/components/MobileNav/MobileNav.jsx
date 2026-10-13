@@ -3,7 +3,6 @@ import { useRootContext } from '@/Provider/context';
 import React from 'react';
 import { Image } from 'react-bootstrap';
 import MobileNavItems from './MobileNavItems';
-import MegaMenu from '../MegaMenu/MegaMenu';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link as ScrollLink } from 'react-scroll';
@@ -52,7 +51,6 @@ const MobileNav = ({ onePage }) => {
                         </ul>
                     ) : (
                         <ul className='main-menu__list'>
-                            <MegaMenu />
                             {navItems.map((navItem) => (
                                 <MobileNavItems key={navItem.id} navItem={navItem} />
                             ))}
