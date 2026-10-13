@@ -7,6 +7,7 @@ import CustomCursor from "../CustomCursor/CustomCursor";
 import Preloader from "../Preloader/Preloader";
 import MobileNav from "../MobileNav/MobileNav";
 import ScrollTop from "../ScrollTop/ScrollTop";
+import WhatsAppWidget from "../WhatsAppWidget/WhatsAppWidget";
 import { usePathname } from "next/navigation";
 import { Toaster } from "react-hot-toast";
 
@@ -87,7 +88,7 @@ const Layout = ({ children, pageTitle, onePage }) => {
         {children}
       </div>
       <MobileNav onePage={onePage} />
-      <ScrollTop />
+      <WhatsAppWidget />
       <Toaster position="top-right" />
     </>
   );

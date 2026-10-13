@@ -17,6 +17,7 @@ import {
 
   faMapMarkerAlt,
   faEnvelope,
+  faPhoneAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
 const sidebarOneText =
@@ -346,14 +347,20 @@ const headerData = {
     {
       id: 1,
       icon: faEnvelope,
-      content: "demo@example.com",
+      content: "info@codenter.com",
       subHref: "mailto",
     },
     {
       id: 2,
       icon: faMapMarkerAlt,
-      content: "27, Dhaka London City, LOT",
-      href: "https://www.google.com/maps",
+      content: "M-88 Sadiq trade center Gulberg Lahore",
+      href: "https://maps.google.com/?q=Sadiq+Trade+Center+Gulberg+Lahore",
+    },
+    {
+      id: 3,
+      icon: faPhoneAlt,
+      content: "+92 317 1114440",
+      subHref: "tel",
     },
   ],
 

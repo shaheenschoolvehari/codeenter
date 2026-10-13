@@ -16,20 +16,18 @@ const ctaTwoData = {
     texts: [
         {
             id: 1,
-            title: "+025461556695",
+            title: "+92 317 1114440",
             subHref: "tel"
-
         },
         {
             id: 2,
-            title: "+025461556695",
-            subHref: "tel"
-
+            title: "info@codenter.com",
+            subHref: "mailto"
         }
     ],
     contTitle: "Solution Company",
-    contText: "We can provide you with a reliable \n Please input an email address",
-    href: "025461556695",
+    contText: "We can provide you with a reliable \n IT & software solution for your business",
+    href: "+923171114440",
     subHref: "tel"
 
 };

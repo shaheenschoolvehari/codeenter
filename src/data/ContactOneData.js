@@ -11,15 +11,13 @@ const contactOneData = {
     texts: [
         {
             id: 1,
-            title: "++255225551",
+            title: "+92 317 1114440",
             subHref: "tel"
-
         },
         {
             id: 2,
-            title: "+6544144444",
-            subHref: "tel"
-
+            title: "info@codenter.com",
+            subHref: "mailto"
         }
     ],
     imageTwo,

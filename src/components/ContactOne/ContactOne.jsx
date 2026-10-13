@@ -61,7 +61,10 @@ const ContactOne = ({ rtl }) => {
                                         {title}
                                     </Link>)
                                 }
-
+                            </p>
+                            <p style={{ marginTop: '10px', color: '#fff', fontSize: '16px' }}>
+                                <i className="fa fa-map-marker-alt" style={{ marginRight: '8px', color: 'var(--tolak-base, #3d72fc)' }}></i>
+                                M-88 Sadiq trade center Gulberg Lahore
                             </p>
                         </div>
                     </Col>

@@ -188,21 +188,25 @@ const MainSliderOne = () => {
                             <div className='main-slider-one__bottom'>
                               <div className='main-slider-one__btn'>
                                 <a
-                                  href='#contact'
+                                  href='https://wa.me/923171114440'
+                                  target='_blank'
+                                  rel='noopener noreferrer'
                                   className='tolak-btn tolak-btn--base'
                                 >
                                   <b>Contact Now</b>
                                   <span></span>
                                 </a>
                               </div>
-                              <div className='main-slider-one__social'>
-                                {social?.map(({ id, link, icon, name }) => (
-                                  <Link key={id} href={link}>
-                                    <FontAwesomeIcon icon={icon} />
-                                    <span className='sr-only'>{name}</span>
-                                  </Link>
-                                ))}
-                              </div>
+                              {social && social.length > 0 && (
+                                <div className='main-slider-one__social'>
+                                  {social.map(({ id, link, icon, name }) => (
+                                    <Link key={id} href={link}>
+                                      <FontAwesomeIcon icon={icon} />
+                                      <span className='sr-only'>{name}</span>
+                                    </Link>
+                                  ))}
+                                </div>
+                              )}
                             </div>
                           </div>
                         </Col>

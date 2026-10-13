@@ -62,13 +62,18 @@ const MobileNav = ({ onePage }) => {
                 <ul className="mobile-nav__contact list-unstyled">
                     <li>
                         <i className="fa fa-envelope"></i>
-                        <a href="mailto:needhelp@codeenter.com">needhelp@codeenter.com</a>
+                        <a href="mailto:info@codenter.com">info@codenter.com</a>
                     </li>
                     <li>
                         <i className="fa fa-phone-alt"></i>
-                        <a href="tel:666-888-0000">666 888 0000</a>
+                        <a href="tel:+923171114440">+92 317 1114440</a>
+                    </li>
+                    <li>
+                        <i className="fa fa-map-marker-alt"></i>
+                        <span>M-88 Sadiq trade center Gulberg Lahore</span>
                     </li>
                 </ul>
+                {/* Future update: Uncomment when social media profiles are active
                 <div className="mobile-nav__social">
                     {social.map(({ icon, link }, index) => (
 
@@ -80,6 +85,7 @@ const MobileNav = ({ onePage }) => {
                     ))}
 
                 </div>
+                */}
             </div >
 
         </div >

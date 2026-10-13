@@ -29,8 +29,9 @@ const Footer = () => {
                                 }</li>
                                 <li><span className={widgetInfo.locationIcon}></span>{widgetInfo.location}</li>
                                 <li><span className={widgetInfo.telIcon}></ span><Link href={`${widgetInfo.subHref}:${widgetInfo.tel}`}>{widgetInfo.tel}</Link></li>
-
+                                <li><span className={widgetInfo.emailIcon || "icofont-envelope"}></span><a href={`mailto:${widgetInfo.email}`}>{widgetInfo.email}</a></li>
                             </ul>
+                            {/* Future update: Uncomment when company social media profiles are active
                             <div className="footer-widget__social">
                                 {
                                     widgetSocial.map(({ id, href, icon, title }) =>
@@ -41,6 +42,7 @@ const Footer = () => {
                                 }
 
                             </div>
+                            */}
                             <div className="footer-widget__image">
                                 <Image src={footerAbout} alt="Code Enter" />
                             </div>

@@ -99,13 +99,15 @@ const footerData = {
   widgetText:
     "Automotive’s four Frederick locations continues its years tradition of quality auto repair services. ehicle owners in gym enter and take a look.",
   widgetInfo: {
-    time: "Open Hours of Government:\n Mon - Fri: 8.00 am. - 6.00 pm.",
+    time: "Mon - Sat: 9.00 am. - 7.00 pm.",
     timeIcon: "icofont-clock-time",
-    location: "13/A, Miranda Halim City .",
+    location: "M-88 Sadiq trade center Gulberg Lahore",
     locationIcon: "icofont-location-pin",
-    tel: "099 695 695 35",
+    tel: "+92 317 1114440",
     telIcon: "icofont-phone",
     subHref: "tel",
+    email: "info@codenter.com",
+    emailIcon: "icofont-envelope",
   },
   widgetSocial,
   services: [

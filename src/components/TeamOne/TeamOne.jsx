@@ -94,6 +94,7 @@ const TeamOne = ({ titleTwo, dots }) => {
                                             <Image src={image} alt={title} style={{ height: "auto" }} />
                                         </div>
                                         <div className="team-card__content">
+                                            {/* Future update: Uncomment when team social media links are ready
                                             <div className="team-card__hover">
                                                 <div className="team-card__social">
                                                     <i className="fa fa-plus"></i>
@@ -109,6 +110,7 @@ const TeamOne = ({ titleTwo, dots }) => {
                                                     </div>
                                                 </div>
                                             </div>
+                                            */}
                                             <h3 className="team-card__title">
                                                 <Link href={href}>{title}</Link>
                                             </h3>
