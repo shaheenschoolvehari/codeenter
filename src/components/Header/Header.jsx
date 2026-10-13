@@ -34,9 +34,9 @@ const Header = ({ dark, rtl }) => {
               <Image
                 src={dark ? logo_light : rtl ? logo_rtl : main_logo}
                 alt='Code Enter'
-                width={200}
-                height={45}
-                style={{ width: "auto", height: "45px", objectFit: "contain" }}
+                width={300}
+                height={62}
+                style={{ width: "auto", height: "62px", objectFit: "contain" }}
                 priority
               />
             </Link>
