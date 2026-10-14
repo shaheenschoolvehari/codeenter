@@ -21,14 +21,13 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const sidebarOneText =
-  "Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ puru rhoncu tincidunt odio ultrices.Sed feugiat feugiat felis.";
+  "Code Enter is dedicated to empowering businesses with innovative IT and AI solutions tailored to your unique needs.";
 
 const singleNavItems = [
   { name: 'Home', href: 'home', },
   { name: 'Services', href: 'services', },
   { name: 'About', href: 'about', },
   { name: 'Team', href: 'team', },
-  // { name: 'Project', href: 'project', }, // Future update: Uncomment when projects are ready
   { name: 'Contact', href: 'contact', },
 ];
 const singleNavItemsTwo = [
@@ -304,11 +303,11 @@ const social = [
 const topbarTwoCarousel = [
   {
     id: 1,
-    text: "Best It-Solution Business !",
+    text: "Welcome to Code Enter - Digital Innovators",
   },
   {
     id: 2,
-    text: "Best It-Solution Business !",
+    text: "Welcome to Code Enter - Digital Innovators",
   },
 ];
 

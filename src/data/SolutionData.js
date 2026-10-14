@@ -11,32 +11,32 @@ const solutionData = {
     image,
     image2,
     shape,
-    tagLine: "Our Solution Business",
-    title: "We’re Are Commited Deliver Marketing for Business.",
-    text: "Business tailored it design, management & support services business agency elit, sed do eiusmod tempor.",
+    tagLine: "Our Strategic Solutions",
+    title: "Committed to Delivering Smart AI & Software Innovation",
+    text: "Every business has unique workflows and ambitions. We engineer customized digital platforms, domain-specific AI models, and scalable architectures designed to solve your toughest challenges and accelerate your growth.",
     boxIcon: "icon-social-care",
-    boxText: "THIS BEST MANS SOLUTION BEST BUSINESS FOR PROVED IS TO COMPANY",
-    listTitle: "Solution This Business",
+    boxText: "DRIVING MEASURABLE VALUE WITH INTELLIGENT TECHNOLOGY",
+    listTitle: "Key Capabilities",
     lists: [
         {
             id: 1,
-            list: "We provide a revolutionary"
+            list: "Agentic AI & Autonomous Workflows"
 
         },
         {
             id: 2,
-            list: "This man for it solution."
+            list: "Custom Enterprise Development"
 
         },
         {
             id: 3,
-            list: "We provide a revolutionary"
+            list: "Full-Stack Web & Mobile Apps"
 
         }
         ,
         {
             id: 4,
-            list: "This man for it solution."
+            list: "Predictive Analytics & Cloud APIs"
 
         }
     ]

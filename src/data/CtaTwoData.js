@@ -12,7 +12,7 @@ const ctaTwoData = {
     image,
     imageRtl,
     icon: "icon-phone-call",
-    title: "Call This Now",
+    title: "Call Us Today",
     texts: [
         {
             id: 1,
@@ -25,8 +25,8 @@ const ctaTwoData = {
             subHref: "mailto"
         }
     ],
-    contTitle: "Solution Company",
-    contText: "We can provide you with a reliable \n IT & software solution for your business",
+    contTitle: "Digital Innovators",
+    contText: "Empowering your business with customized \n AI and software solutions that drive real results",
     href: "+923171114440",
     subHref: "tel"
 

@@ -19,9 +19,9 @@ import HeaderSingle from "@/components/Header/HeaderSingle";
 import HeaderSingleCloned from "@/components/Header/HeaderSingleCloned";
 
 export const metadata = {
-  title: "Code Enter - IT Solution & Business",
+  title: "Code Enter - Digital Innovators",
   description:
-    "Code Enter is a modern IT Solution, Corporate & Business Website.",
+    "Code Enter - Digital Innovators. Specializing in AI-powered solutions, custom software engineering, and digital transformation.",
   icons: {
     icon: [
       { url: "/favicon.ico" },

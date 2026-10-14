@@ -3,22 +3,26 @@ import bg from '@/assets/images/backgrounds/slide-text-bg.jpg';
 const slideTextData = {
     bg,
     lists: [
-        "Python",
-        "jQuery",
-        "Sketch",
-        "Figma",
-        "Android",
         "React",
-        ".NET",
+        "Python",
+        "Node.js",
         "Flutter",
-        "Python",
-        "jQuery",
-        "Sketch",
-        "Figma",
-        "Android",
-        "React",
+        "Agentic AI",
         ".NET",
-        "Flutter"
+        "AWS Cloud",
+        "PostgreSQL",
+        "Next.js",
+        "React Native",
+        "React",
+        "Python",
+        "Node.js",
+        "Flutter",
+        "Agentic AI",
+        ".NET",
+        "AWS Cloud",
+        "PostgreSQL",
+        "Next.js",
+        "React Native"
     ]
 };
 

@@ -5,56 +5,56 @@ import image4 from '@/assets/images/resources/service-1-4.jpg'
 import image5 from '@/assets/images/resources/service-1-5.jpg'
 import image6 from '@/assets/images/resources/service-1-6.jpg'
 const serviceOneData = {
-    tagLine: "Our Best Service",
-    title: "We Kinds of Services Business",
-    title2: "We Leadership This Service",
+    tagLine: "Our Core Services",
+    title: "Innovative IT & AI Solutions For Modern Enterprises",
+    title2: "Innovative IT & AI Solutions",
     items: [
         {
             id: 1,
             image: image1,
-            icon: "icon-cooperation",
-            title: "Business of Growth",
-            text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
+            icon: "icon-agency",
+            title: "Agentic AI & Multi-Agent Systems",
+            text: "Autonomous AI agents that plan, use tools, and execute multi-step workflows to streamline business operations.",
             href: "#contact"
         },
         {
             id: 2,
             image: image2,
-            icon: "icon-ads-campaign",
-            title: "Solution to Business",
-            text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
+            icon: "icon-cooperation",
+            title: "Custom Software Development",
+            text: "Tailored, scalable software built to solve your unique challenges and integrate seamlessly with your ecosystem.",
             href: "#contact"
         },
         {
             id: 3,
             image: image3,
-            icon: "icon-headhunter",
-            title: "Markting of Solution",
-            text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
+            icon: "icon-advertisig-agency",
+            title: "Generative & Multimodal AI",
+            text: "Domain-specific LLMs and multimodal models generating high-quality text, code, images, and intelligent insights.",
             href: "#contact"
         },
         {
             id: 4,
             image: image4,
-            icon: "icon-agency",
-            title: "Technology Services",
-            text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
+            icon: "icon-headhunter",
+            title: "Web & Mobile App Development",
+            text: "Cross-platform mobile and responsive web apps built with Flutter, React Native, React, Node.js, and modern cloud stacks.",
             href: "#contact"
         },
         {
             id: 5,
             image: image5,
-            icon: "icon-advertisig-agency",
-            title: "Marketing Business",
-            text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
+            icon: "icon-ads-campaign",
+            title: "Search Engine Optimization (SEO)",
+            text: "Keyword research, technical SEO, on-page optimization, and authority building to dominate search engine rankings.",
             href: "#contact"
         },
         {
             id: 6,
             image: image6,
             icon: "icon-management",
-            title: "Support of Business",
-            text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
+            title: "Digital Marketing & Strategy",
+            text: "Targeted PPC advertising, social media marketing, content strategies, and conversion rate optimization that drive growth.",
             href: "#contact"
         }
     ]

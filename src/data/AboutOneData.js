@@ -8,16 +8,17 @@ const aboutOneData = {
     bg,
     shape, shapeRtl, arrow, arrowRtl, elementImage,
     videoId: "h9MbznbxlLc",
-    tagLine: "Our About Now",
-    title: "We Can Clients with the \n About Services",
-    text: "Business tailored it design, management & support services \n business agency elit, sed do eiusmod tempor.",
-    lists: ["Business onstructivism.", "We give management", "Media in this solution.", "Business onstructivism.", "We give management", "Media in this solution."
-
+    tagLine: "About Code Enter",
+    title: "Empowering Businesses With \n Intelligent Digital Solutions",
+    text: "At Code Enter, we are a technology-driven company dedicated to empowering businesses with innovative IT and AI solutions. Specializing in customized software development and next-generation AI architectures, our mission is to help businesses grow smarter, faster, and more efficiently through technology that delivers real results.",
+    lists: [
+        "Agentic AI & Multi-Agent Workflows",
+        "Tailored Custom Software Development",
+        "Flexible & Future-Ready Scalability",
+        "Seamless Ecosystem & Tool Integration",
+        "Enterprise-Grade Cybersecurity",
+        "Dedicated Long-Term Support & Maintenance"
     ],
-    imageText: "36+ expressions challenge"
-
-
-
-
+    imageText: "Digital Innovators & AI Experts"
 }
 export default aboutOneData;

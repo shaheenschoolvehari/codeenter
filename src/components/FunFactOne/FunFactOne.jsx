@@ -84,11 +84,7 @@ const FunFactOne = ({ rtl }) => {
                     </Accordion.Header>
                     <Accordion.Body>
                       <div className='inner'>
-                        <p>
-                          There are many variations of passages of is psum
-                          available, but the majority have suffered alteration
-                          in some we form, by injected humour,
-                        </p>
+                        <p>{accordion.content}</p>
                       </div>
                     </Accordion.Body>
                   </Accordion.Item>

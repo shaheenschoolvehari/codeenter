@@ -9,22 +9,22 @@ const funFactOneData = {
     items: [
         {
             id: 1,
-            text: 'Successflly Trained',
-            count: "63",
+            text: 'Active Deployments',
+            count: "50",
             identity: ""
 
         },
         {
             id: 2,
-            text: 'Projects Complited',
-            count: "26",
+            text: 'Projects Completed',
+            count: "120",
             identity: "funfact-one__item--two"
 
         },
         {
             id: 3,
-            text: 'Customers Support',
-            count: "26",
+            text: 'Client Satisfaction %',
+            count: "99",
             identity: "funfact-one__item--three"
 
         }
@@ -33,30 +33,28 @@ const funFactOneData = {
     accordionData: [
         {
             id: 1,
-            header: 'Maecenas facilisis erat id odio',
-            content: " There are many variations of passages of is psum available, but the majority have suffered alteration in some we form, by injected humour,"
+            header: 'Why should our business choose Code Enter?',
+            content: "We don’t believe in one-size-fits-all solutions. We design and develop custom software, AI solutions, and digital strategies specifically aligned with your unique business goals and workflows."
         },
         {
             id: 2,
-            header: ' Phasellus et vehicula nulla',
-            content: " There are many variations of passages of is psum available, but the majority have suffered alteration in some we form, by injected humour,"
+            header: 'What are Agentic AI & Multi-Agent Systems?',
+            content: "Our intelligent AI agents go far beyond ordinary chatbots. They plan, use tools, take actions, and complete complex multi-step tasks autonomously to automate critical business operations."
         },
         {
             id: 3,
-            header: 'Maecenas malesuada',
-            content: " There are many variations of passages of is psum available, but the majority have suffered alteration in some we form, by injected humour,"
+            header: 'How do you ensure technology scalability?',
+            content: "We build flexible, future-ready architectures that scale seamlessly as your user base, data volume, and operational demands grow — preventing costly rebuilds."
         },
         {
             id: 4,
-            header: ' Why you join our team',
-            content: " There are many variations of passages of is psum available, but the majority have suffered alteration in some we form, by injected humour,"
-
+            header: 'Can custom solutions integrate with our existing tools?',
+            content: "Yes. Seamless connectivity is essential. We ensure your new solutions integrate smoothly with your existing systems, legacy platforms, and third-party APIs to create a unified ecosystem."
         },
         {
             id: 5,
-            header: 'Maecenas malesuada',
-            content: " There are many variations of passages of is psum available, but the majority have suffered alteration in some we form, by injected humour,"
-
+            header: 'What post-launch support and maintenance do you offer?',
+            content: "Our partnership continues after launch. We provide ongoing maintenance, performance optimization, proactive updates, and dedicated technical support to keep your systems evolving smoothly."
         },
     ]
 

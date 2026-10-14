@@ -7,9 +7,9 @@ import image6 from '@/assets/images/team/team-1-6.jpg'
 import { faFacebookF, faInstagram, faPinterestP, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const teamOneData = {
-    tagLine: "Our Team Member",
-    title: "Meet Great Customer Service",
-    title2: "Meet The Team Metting Solution",
+    tagLine: "Our Expert Team",
+    title: "Meet the Innovators Behind Code Enter",
+    title2: "Meet Our Leadership & Engineering Team",
     carouselData: [
         {
             id: 1,
@@ -22,7 +22,7 @@ const teamOneData = {
             ],
             title: "Lorata Barsa",
             href: "#team",
-            designation: "Founder"
+            designation: "Lead AI & ML Architect"
         },
         {
             id: 2,
@@ -35,7 +35,7 @@ const teamOneData = {
             ],
             title: "Moras Batas",
             href: "#team",
-            designation: "Manager"
+            designation: "Head of Software Engineering"
         },
         {
             id: 3,
@@ -48,7 +48,7 @@ const teamOneData = {
             ],
             title: "Korata Mana",
             href: "#team",
-            designation: "Founder"
+            designation: "Principal Cloud Architect"
         },
         {
             id: 4,
@@ -61,7 +61,7 @@ const teamOneData = {
             ],
             title: "Moras Batas",
             href: "#team",
-            designation: "Manager"
+            designation: "Senior Full-Stack Developer"
         },
         {
             id: 5,
@@ -74,7 +74,7 @@ const teamOneData = {
             ],
             title: "Soran Baras",
             href: "#team",
-            designation: "Founder"
+            designation: "UI/UX & Product Designer"
         },
         {
             id: 6,
@@ -87,7 +87,7 @@ const teamOneData = {
             ],
             title: "Harat Paras",
             href: "#team",
-            designation: "Manager"
+            designation: "DevOps & Security Specialist"
         }
     ]
 };

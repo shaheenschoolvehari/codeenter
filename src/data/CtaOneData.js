@@ -16,10 +16,10 @@ const ctaOneData = {
     author2,
     author3,
     icon: "icon-best-price",
-    title: "Solution System Design",
-    text: "Every team has a culture and set of ct ations that have either been aed orsve naturally evolved.",
-    conText: "29,0000 customers with our services",
-    conLinkText: "( Let’s Started )",
+    title: "Intelligent Automation & Modern Engineering",
+    text: "We combine AI innovation with tailored software engineering to help your business operate faster, scale smoothly, and outpace the competition.",
+    conText: "Ready to transform your business with technology?",
+    conLinkText: "( Get in Touch )",
     href: "#contact"
 
 

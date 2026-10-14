@@ -11,9 +11,9 @@ const mainSliderOneData = [
         bg: bannerAiSolutions,
         showContent: true,
         hasOverlay: true,
-        subTitle: "Wellcome To It-Solution !",
-        title: "Get Our Business<br> This It Soluti<span>o</span>n",
-        text: "Business a soluion and emirate in the Arab known <br>for luxury city for Company.",
+        subTitle: "Welcome to Code Enter",
+        title: "Empowering Growth with<br> Next-Gen AI Soluti<span>o</span>ns",
+        text: "From Agentic AI & multi-agent workflows to custom LLMs, <br>we build intelligent systems tailored to your business.",
         social: [],
     },
     {
@@ -22,9 +22,9 @@ const mainSliderOneData = [
         bg: bannerItSolutions,
         showContent: true,
         hasOverlay: true,
-        subTitle: "Wellcome To It-Solution !",
-        title: "Get Our Business<br> This It Soluti<span>o</span>n",
-        text: "Business a soluion and emirate in the Arab known <br>for luxury city for Company.",
+        subTitle: "Code Enter — Digital Innovators",
+        title: "Transforming Ideas Into<br> Intelligent Soluti<span>o</span>ns",
+        text: "Helping businesses grow smarter, faster, and more efficiently <br>with cutting-edge technology and tailored IT services.",
         social: [],
     },
     {
@@ -33,9 +33,9 @@ const mainSliderOneData = [
         bg: bannerSoftwareDev,
         showContent: true,
         hasOverlay: true,
-        subTitle: "Wellcome To It-Solution !",
-        title: "Get Our Business<br> This It Soluti<span>o</span>n",
-        text: "Business a soluion and emirate in the Arab known <br>for luxury city for Company.",
+        subTitle: "Custom Software Engineering",
+        title: "Scalable, Secure &amp;<br> Future-Ready S<span>o</span>ftware",
+        text: "Fully customized web, mobile, and enterprise platforms <br>engineered to solve your unique business challenges.",
         social: [],
     }
 ];
