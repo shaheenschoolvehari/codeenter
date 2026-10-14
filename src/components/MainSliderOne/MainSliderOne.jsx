@@ -176,7 +176,7 @@ const MainSliderOne = () => {
                               {subTitle}
                             </h5>
                             <h2
-                              className='main-slider-one__title'
+                              className={`main-slider-one__title ${title && title.length > 70 ? 'main-slider-one__title--compact' : ''}`}
                               dangerouslySetInnerHTML={{ __html: title }}
                             ></h2>
                             <div className='main-slider-one__text'>

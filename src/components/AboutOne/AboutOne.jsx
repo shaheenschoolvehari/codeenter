@@ -5,13 +5,13 @@ import React, { Fragment, useEffect, useRef, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import VideoModal from '../VideoModal/VideoModal';
 import Link from 'next/link';
-import useTolakStretch from '@/hooks/useTolakSerch';
+import useCodeEnterStretch from '@/hooks/useCodeEnterStretch';
 const { arrow, arrowRtl, bg, elementImage, imageText, lists, shape, shapeRtl, tagLine, text, title, videoId } = aboutOneData
 
 const AboutOne = ({ rtl }) => {
     const [isOpen, setOpen] = useState(false);
 
-    const containerRef = useTolakStretch();
+    const containerRef = useCodeEnterStretch();
 
     // const tolakStretch = () => {
     //     const i = window.innerWidth;

@@ -14333,6 +14333,12 @@ body.megamenu-popup-active .mobile-nav__content {
   transform: translateX(200px);
 }
 
+.main-slider-one__title--compact {
+  font-size: clamp(24px, 2.4vw, 42px) !important;
+  line-height: 1.25 !important;
+}
+
+
 .main-slider-one__title span {
   color: var(--tolak-base, #3d72fc);
   position: relative;
@@ -30118,4 +30124,112 @@ body.boxed-wrapper .main-slider-one__floating-text {
   top: 50%;
   z-index: 999;
   color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Continuous Team Slider (FalconSwift Style Marquee - Smooth Linear Motion)
+--------------------------------------------------------------*/
+.team-scroll-container {
+  overflow: hidden;
+  padding: 20px 0 35px 0;
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  mask-image: linear-gradient(to right, transparent, white 2.5%, white 97.5%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, white 2.5%, white 97.5%, transparent);
+}
+
+.team-track {
+  display: flex;
+  gap: var(--team-gap, 30px);
+  width: max-content;
+  --team-gap: 30px;
+  animation: teamMarqueeScroll 45s linear infinite;
+  align-items: stretch;
+  will-change: transform;
+}
+
+.team-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes teamMarqueeScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-50% - (var(--team-gap) / 2)));
+  }
+}
+
+.team-slide-item {
+  width: 370px;
+  max-width: 370px;
+  flex: 0 0 370px;
+  transition: transform 0.35s ease;
+}
+
+.team-slide-item:hover {
+  transform: translateY(-8px);
+}
+
+.team-slide-item .team-card {
+  height: 100%;
+  margin-bottom: 0;
+  box-shadow: 0 8px 25px rgba(0, 24, 54, 0.06);
+  transition: all 0.35s ease;
+}
+
+.team-slide-item:hover .team-card {
+  box-shadow: 0 18px 38px rgba(0, 24, 54, 0.12);
+}
+
+.team-slide-item .team-card__image img {
+  transition: transform 0.4s ease;
+}
+
+.team-slide-item:hover .team-card__image img {
+  transform: scale(1.03);
+}
+
+/* Ensure clean portrait photos without dark overlay masking */
+.team-slide-item .team-card:hover .team-card__image::after {
+  display: none !important;
+}
+
+@media (max-width: 1200px) {
+  .team-scroll-container {
+    max-width: 100%;
+    padding: 15px 15px 30px 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .team-track {
+    --team-gap: 20px;
+    animation-duration: 38s;
+  }
+  .team-slide-item {
+    width: 310px;
+    max-width: 310px;
+    flex: 0 0 310px;
+  }
+}
+
+@media (max-width: 575px) {
+  .team-track {
+    --team-gap: 16px;
+    animation-duration: 32s;
+  }
+  .team-slide-item {
+    width: 270px;
+    max-width: 270px;
+    flex: 0 0 270px;
+  }
+  .team-scroll-container {
+    mask-image: none;
+    -webkit-mask-image: none;
+    padding: 10px 0 20px 0;
+  }
 }

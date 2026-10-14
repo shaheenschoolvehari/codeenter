@@ -23,8 +23,8 @@ const mainSliderOneData = [
         showContent: true,
         hasOverlay: true,
         subTitle: "Code Enter — Digital Innovators",
-        title: "Transforming Ideas Into<br> Intelligent Soluti<span>o</span>ns",
-        text: "Helping businesses grow smarter, faster, and more efficiently <br>with cutting-edge technology and tailored IT services.",
+        title: "Power of AI with the Touch of Human-Like Conversations<br> Nex-Gen 24/7 Customer Supp<span>o</span>rt Built for Your Business.",
+        text: "Empower your business with Code Enter’s custom AI support agents <br>delivering fast, accurate, and human-like support 24/7.",
         social: [],
     },
     {

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'tolak-icons-two';
-  src:  url('fonts/tolak-icons-two.eot?nf1uxi');
-  src:  url('fonts/tolak-icons-two.eot?nf1uxi#iefix') format('embedded-opentype'),
-    url('fonts/tolak-icons-two.ttf?nf1uxi') format('truetype'),
-    url('fonts/tolak-icons-two.woff?nf1uxi') format('woff'),
-    url('fonts/tolak-icons-two.svg?nf1uxi#tolak-icons-two') format('svg');
+  src:  url('fonts/codeenter-icons-two.eot?nf1uxi');
+  src:  url('fonts/codeenter-icons-two.eot?nf1uxi#iefix') format('embedded-opentype'),
+    url('fonts/codeenter-icons-two.ttf?nf1uxi') format('truetype'),
+    url('fonts/codeenter-icons-two.woff?nf1uxi') format('woff'),
+    url('fonts/codeenter-icons-two.svg?nf1uxi#tolak-icons-two') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

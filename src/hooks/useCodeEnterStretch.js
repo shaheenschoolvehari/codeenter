@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-const useTolakStretch = () => {
+const useCodeEnterStretch = () => {
     const containerRef = useRef([]);
     const [mounted, setMounted] = useState(false)
     useEffect(() => {
@@ -59,4 +59,4 @@ const useTolakStretch = () => {
     return containerRef;
 };
 
-export default useTolakStretch;
+export default useCodeEnterStretch;
