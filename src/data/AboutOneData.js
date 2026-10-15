@@ -9,7 +9,7 @@ const aboutOneData = {
     shape, shapeRtl, arrow, arrowRtl, elementImage,
     videoId: "h9MbznbxlLc",
     tagLine: "About Code Enter",
-    title: "Empowering Businesses With \n Intelligent Digital Solutions",
+    title: "Empowering Businesses With\nIntelligent Digital Solutions",
     text: "At Code Enter, we are a technology-driven company dedicated to empowering businesses with innovative IT and AI solutions. Specializing in customized software development and next-generation AI architectures, our mission is to help businesses grow smarter, faster, and more efficiently through technology that delivers real results.",
     lists: [
         "Agentic AI & Multi-Agent Workflows",

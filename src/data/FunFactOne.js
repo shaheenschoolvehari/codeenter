@@ -9,27 +9,26 @@ const funFactOneData = {
     items: [
         {
             id: 1,
-            text: 'Active Deployments',
-            count: "50",
+            text: 'Active Support & Uptime',
+            count: "24",
+            suffix: "/7",
             identity: ""
-
         },
         {
             id: 2,
-            text: 'Projects Completed',
-            count: "120",
+            text: 'Custom-Tailored Solutions',
+            count: "100",
+            suffix: "%",
             identity: "funfact-one__item--two"
-
         },
         {
             id: 3,
-            text: 'Client Satisfaction %',
-            count: "99",
+            text: 'Security & Quality Standards',
+            count: "100",
+            suffix: "%",
             identity: "funfact-one__item--three"
-
         }
-    ]
-    ,
+    ],
     accordionData: [
         {
             id: 1,

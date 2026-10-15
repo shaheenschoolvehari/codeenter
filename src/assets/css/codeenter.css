@@ -30323,3 +30323,80 @@ body.boxed-wrapper .main-slider-one__floating-text {
 .service-one__item__text {
   flex-grow: 1;
 }
+
+/*--------------------------------------------------------------
+# About Section Title Tuning (No "With" letter clipping)
+--------------------------------------------------------------*/
+.about-one .sec-title__title {
+  font-size: clamp(24px, 2.3vw, 34px) !important;
+  line-height: 1.25 !important;
+}
+
+/*--------------------------------------------------------------
+# FunFact Trust Badges: Prevent Accordion / Dropdown Text Overlap
+--------------------------------------------------------------*/
+.funfact-one__item {
+  width: 175px !important;
+  height: 175px !important;
+  padding: 22px 14px !important;
+  border-radius: 50% !important;
+  z-index: 4;
+}
+
+.funfact-one__item__count {
+  font-size: 34px !important;
+  margin: 0 0 5px !important;
+  line-height: 1 !important;
+}
+
+.funfact-one__item__count span {
+  font-size: 26px !important;
+}
+
+.funfact-one__item__text {
+  font-size: 13px !important;
+  line-height: 17px !important;
+  font-weight: 600 !important;
+}
+
+/* Badge 1: Top-Left */
+.funfact-one__item:not(.funfact-one__item--two):not(.funfact-one__item--three) {
+  left: -15px !important;
+  top: 15px !important;
+}
+
+/* Badge 2 (Tailored Solutions): Bottom-Right (Clear of Accordion) */
+.funfact-one__item--two {
+  left: auto !important;
+  right: 15px !important;
+  top: auto !important;
+  bottom: -40px !important;
+  margin: 0 !important;
+  border: 10px solid var(--tolak-white, #fff) !important;
+  z-index: 4 !important;
+}
+
+/* Badge 3 (Security Standards): Bottom-Left */
+.funfact-one__item--three {
+  left: -15px !important;
+  bottom: -40px !important;
+  top: auto !important;
+  z-index: 4 !important;
+}
+
+.funfact-one__accordion {
+  position: relative;
+  z-index: 5;
+}
+
+@media (max-width: 991px) {
+  .funfact-one__item {
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    margin: 15px auto !important;
+    display: inline-flex !important;
+  }
+}

@@ -49,17 +49,15 @@ const FunFactOne = ({ rtl }) => {
                 alt='Code Enter'
               />
 
-              {items.map(({ id, text, count, identity }) => (
+              {items.map(({ id, text, count, suffix, identity }) => (
                 <Tilt
                   key={id}
                   className={`funfact-one__item count-box tolak-tilt ${identity}`}
                   options={defaultOptions}
                 >
                   <h3 className='funfact-one__item__count '>
-
                     <ScrollTriggerCount count={count} />
-
-                    k+
+                    <span>{suffix !== undefined ? suffix : '+'}</span>
                   </h3>
                   <p className='funfact-one__item__text'>{text}</p>
                 </Tilt>
