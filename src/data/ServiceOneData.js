@@ -1,9 +1,9 @@
-import image1 from '@/assets/images/resources/service-1-1.jpg'
-import image2 from '@/assets/images/resources/service-1-2.jpg'
-import image3 from '@/assets/images/resources/service-1-3.jpg'
-import image4 from '@/assets/images/resources/service-1-4.jpg'
-import image5 from '@/assets/images/resources/service-1-5.jpg'
-import image6 from '@/assets/images/resources/service-1-6.jpg'
+import image1 from '@/assets/images/services/agentic-ai-and-multi-agent-systems.jpeg'
+import image2 from '@/assets/images/services/custom-software-development.jpeg'
+import image3 from '@/assets/images/services/generative-and-multimodal-ai.jpeg'
+import image4 from '@/assets/images/services/web-and-mobile-app-development.jpeg'
+import image5 from '@/assets/images/services/predictive-analytics-and-growth.jpeg'
+import image6 from '@/assets/images/services/cybersecurity-and-data-protection.jpeg'
 const serviceOneData = {
     tagLine: "Our Core Services",
     title: "Innovative IT & AI Solutions For Modern Enterprises",
@@ -45,16 +45,16 @@ const serviceOneData = {
             id: 5,
             image: image5,
             icon: "icon-ads-campaign",
-            title: "Search Engine Optimization (SEO)",
-            text: "Keyword research, technical SEO, on-page optimization, and authority building to dominate search engine rankings.",
+            title: "Predictive Analytics & Growth",
+            text: "Data intelligence, cloud metrics, technical SEO, and data-driven optimization that maximize market growth.",
             href: "#contact"
         },
         {
             id: 6,
             image: image6,
             icon: "icon-management",
-            title: "Digital Marketing & Strategy",
-            text: "Targeted PPC advertising, social media marketing, content strategies, and conversion rate optimization that drive growth.",
+            title: "Cybersecurity & Data Protection",
+            text: "Robust security protocols, threat detection, data privacy, and end-to-end encryption for modern enterprises.",
             href: "#contact"
         }
     ]

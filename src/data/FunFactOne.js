@@ -1,4 +1,4 @@
-import image from '@/assets/images/resources/counter-1-1.jpg'
+import image from '@/assets/images/funfact/why-choose-code-enter-metrics-dashboard.jpeg'
 import shape from '@/assets/images/shapes/counter-border-1.png'
 import shapeRtl from '@/assets/images/shapes/counter-border-1-rtl.png'
 

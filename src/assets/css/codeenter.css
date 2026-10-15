@@ -14280,6 +14280,19 @@ body.megamenu-popup-active .mobile-nav__content {
 .main-slider-one__content {
   position: relative;
   z-index: 3;
+  margin-top: -60px;
+}
+
+@media (max-width: 1199px) {
+  .main-slider-one__content {
+    margin-top: -35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-slider-one__content {
+    margin-top: -15px;
+  }
 }
 
 .main-slider-one__sub-title {
@@ -14334,8 +14347,9 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 
 .main-slider-one__title--compact {
-  font-size: clamp(24px, 2.4vw, 42px) !important;
-  line-height: 1.25 !important;
+  font-size: clamp(21px, 2.15vw, 36px) !important;
+  line-height: 1.2 !important;
+  margin-bottom: 8px !important;
 }
 
 
@@ -30232,4 +30246,80 @@ body.boxed-wrapper .main-slider-one__floating-text {
     -webkit-mask-image: none;
     padding: 10px 0 20px 0;
   }
+}
+
+/*--------------------------------------------------------------
+# Image Fit & Layout Integrity Enhancements (No Cropping / No Cuts)
+--------------------------------------------------------------*/
+.about-one__image img {
+  height: auto !important;
+  max-height: 620px;
+  max-width: 100%;
+  object-fit: contain !important;
+  border-radius: 16px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
+}
+
+.cta-one__image {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.cta-one__image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.funfact-one__image img {
+  border-radius: 20px !important;
+  object-fit: contain !important;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
+}
+
+.our-solution__image img {
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+  border-radius: 20px !important;
+  object-fit: contain !important;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
+}
+
+.service-one__item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.service-one__item__image {
+  aspect-ratio: 16 / 10;
+  background: #061719;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 12px 12px 0 0;
+}
+
+.service-one__item__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain !important;
+  transition: transform 0.4s ease;
+}
+
+.service-one__item:hover .service-one__item__image img {
+  transform: scale(1.05);
+}
+
+.service-one__item__content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-one__item__text {
+  flex-grow: 1;
 }

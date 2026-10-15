@@ -23,7 +23,7 @@ const mainSliderOneData = [
         showContent: true,
         hasOverlay: true,
         subTitle: "Code Enter — Digital Innovators",
-        title: "Power of AI with the Touch of Human-Like Conversations<br> Nex-Gen 24/7 Customer Supp<span>o</span>rt Built for Your Business.",
+        title: "Power of AI with the Touch of<br> Human-Like Conversations<br> Nex-Gen 24/7 Customer Supp<span>o</span>rt<br> Built for Your Business.",
         text: "Empower your business with Code Enter’s custom AI support agents <br>delivering fast, accurate, and human-like support 24/7.",
         social: [],
     },

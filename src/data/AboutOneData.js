@@ -3,7 +3,7 @@ import shape from '@/assets/images/shapes/about-1-shape-1.png'
 import shapeRtl from '@/assets/images/shapes/about-1-shape-1-rtl.png'
 import arrow from '@/assets/images/shapes/arrow.png'
 import arrowRtl from '@/assets/images/shapes/arrow-rtl.png'
-import elementImage from '@/assets/images/resources/about-1-1.jpg'
+import elementImage from '@/assets/images/about/about-code-enter-digital-innovators.jpeg'
 const aboutOneData = {
     bg,
     shape, shapeRtl, arrow, arrowRtl, elementImage,
