@@ -51,7 +51,7 @@ const page = () => {
       <OurSolution />
       <FeatureTwo />
       {/* <PojectOne /> -- Future update: Uncomment to display Projects section */}
-      <ClientCarousel />
+      {/* <ClientCarousel /> -- Future update: Uncomment when real partner/client logos are available */}
       <SlideText />
       <ContactOne />
       <Footer />

@@ -1,6 +1,5 @@
 import ctaOneData from '@/data/CtaOneData';
 import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 const {
@@ -9,15 +8,9 @@ const {
     shape,
     shapeRtl,
     image,
-    author1,
-    author2,
-    author3,
     icon,
     title,
-    text,
-    conText,
-    conLinkText,
-    href } = ctaOneData
+    text } = ctaOneData
 
 const CtaOne = ({ rtl, page }) => {
 
@@ -45,13 +38,6 @@ const CtaOne = ({ rtl, page }) => {
                                 <h3 className="cta-one__box__title">{title}</h3>
                                 <p className="cta-one__box__text">{text}</p>
                             </div>
-                            <div className="cta-one__author">
-                                <Image src={author1} alt="Code Enter" />
-                                <Image src={author2} alt="Code Enter" />
-                                <Image src={author3} alt="Code Enter" />
-                                <Link className="cta-one__author__rm" href={href}>More <span className="fas fa-arrow-right"></span></Link>
-                            </div>
-                            <p className="cta-one__content__text">{conText} <Link href={href}>{conLinkText}</Link></p>
                         </div>
                     </Col>
                 </Row>
