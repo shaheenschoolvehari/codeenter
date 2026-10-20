@@ -4811,21 +4811,7 @@ h6 {
 }
 
 .main-header::after {
-  position: absolute;
-  left: 0;
-  bottom: -46px;
-  content: "";
-  width: 16.4%;
-  height: 46px;
-  background-color: var(--tolak-white, #fff);
-  z-index: 1;
-  border-radius: 0 0 6px 0;
-}
-
-@media (max-width: 1339px) {
-  .main-header::after {
-    display: none;
-  }
+  display: none !important;
 }
 
 .main-header__inner {
@@ -30399,4 +30385,26 @@ body.boxed-wrapper .main-slider-one__floating-text {
     margin: 15px auto !important;
     display: inline-flex !important;
   }
+}
+
+/*--------------------------------------------------------------
+# Main Header Logo: Remove protruding white tab/space below header
+--------------------------------------------------------------*/
+.main-header::after,
+.sticky-header::after,
+.main-header__logo::after,
+.main-header__inner::after {
+  display: none !important;
+  content: none !important;
+  height: 0 !important;
+  width: 0 !important;
+}
+
+/*--------------------------------------------------------------
+# About Section: Remove Watching video button, text & arrow
+--------------------------------------------------------------*/
+.about-one__video-btn,
+.about-one__content__btn__text,
+.about-one__content__btn__arrow {
+  display: none !important;
 }

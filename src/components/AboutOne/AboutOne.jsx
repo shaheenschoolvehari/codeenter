@@ -1,16 +1,13 @@
 'use client'
 import aboutOneData from '@/data/AboutOneData';
 import Image from 'next/image';
-import React, { Fragment, useEffect, useRef, useState } from 'react';
+import React, { Fragment } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import VideoModal from '../VideoModal/VideoModal';
 import Link from 'next/link';
 import useCodeEnterStretch from '@/hooks/useCodeEnterStretch';
-const { arrow, arrowRtl, bg, elementImage, imageText, lists, shape, shapeRtl, tagLine, text, title, videoId } = aboutOneData
+const { bg, elementImage, imageText, lists, shape, shapeRtl, tagLine, text, title } = aboutOneData
 
 const AboutOne = ({ rtl }) => {
-    const [isOpen, setOpen] = useState(false);
-
     const containerRef = useCodeEnterStretch();
 
     // const tolakStretch = () => {
@@ -89,14 +86,6 @@ const AboutOne = ({ rtl }) => {
                                 <div className="clearfix"></div>
                                 <div className="about-one__content__btn">
                                     <Link href="#contact" className="tolak-btn"><b>Contact Us</b><span></span></Link>
-                                    <h5 className="about-one__content__btn__text">Watching video</h5>
-                                    <Image className="about-one__content__btn__arrow" src={rtl ? arrowRtl : arrow} alt="Code Enter" />
-                                </div>
-                                <div className="about-one__video-btn">
-                                    <div style={{ cursor: "pointer" }} onClick={() => setOpen(true)} className="video-popup">
-                                        <i className="fa fa-play"></i>
-                                        <span className="video-popup__btn-ripple"></span>
-                                    </div>
                                 </div>
                             </div>
                         </Col>
@@ -115,7 +104,6 @@ const AboutOne = ({ rtl }) => {
                     </Row>
                 </Container>
             </section>
-            <VideoModal isOpen={isOpen} setOpen={setOpen} id={videoId} />
         </>
     );
 };
