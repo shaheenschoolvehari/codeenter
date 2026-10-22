@@ -42,7 +42,9 @@ const ServiceOne = ({ titleTwo }) => {
                             data-aos-duration='1500'>
                             <div className="service-one__item text-center">
                                 <div className="service-one__item__image">
-                                    <Image src={image} alt="Code Enter" />
+                                    <Link href={href}>
+                                        <Image src={image} alt={title} />
+                                    </Link>
                                 </div>
                                 <div className="service-one__item__content">
                                     <div className="service-one__item__icon">

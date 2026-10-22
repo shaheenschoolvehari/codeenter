@@ -6,7 +6,6 @@ import AOS from "aos";
 import CustomCursor from "../CustomCursor/CustomCursor";
 import Preloader from "../Preloader/Preloader";
 import MobileNav from "../MobileNav/MobileNav";
-import ScrollTop from "../ScrollTop/ScrollTop";
 import WhatsAppWidget from "../WhatsAppWidget/WhatsAppWidget";
 import { usePathname } from "next/navigation";
 import { Toaster } from "react-hot-toast";

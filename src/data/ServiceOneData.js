@@ -20,7 +20,7 @@ const serviceOneData = {
             icon: "icon-cooperation",
             title: "Custom Software Development",
             text: "Tailored, scalable web, mobile, and cloud software engineering built to solve complex business challenges and drive operational efficiency.",
-            href: "#contact"
+            href: "/custom-software-development"
         },
         {
             id: 2,
@@ -28,7 +28,7 @@ const serviceOneData = {
             icon: "icon-agency",
             title: "AI Engineered for Enterprise Success",
             text: "Custom enterprise AI architectures, autonomous agent workflows, and domain-specific LLMs built to accelerate productivity and market success.",
-            href: "#contact"
+            href: "/ai-enterprise-success"
         },
         {
             id: 3,
@@ -36,7 +36,7 @@ const serviceOneData = {
             icon: "icon-ads-campaign",
             title: "Digital Marketing & Technical SEO Services",
             text: "Data-driven marketing campaigns, technical SEO audits, search visibility optimization, and performance strategies to maximize inbound ROI.",
-            href: "#contact"
+            href: "/digital-marketing-seo"
         },
         /*
         // =====================================================================

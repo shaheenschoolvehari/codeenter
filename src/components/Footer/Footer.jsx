@@ -4,21 +4,41 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { Fragment } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-const { logo, footerBg, shape, posts, widgetInfo, widgetSocial, footerAbout, services, quickLinks, bottomLinks } = footerData
+const { logo, footerCubesBg, shape, widgetInfo, widgetSocial, footerAbout, services, quickLinks, bottomLinks } = footerData;
 
 const Footer = () => {
     const year = new Date().getFullYear();
     return (
         <footer className="main-footer background-black">
-            <div className="main-footer__bg background-black"
-                style={{ backgroundImage: `url(${footerBg.src})` }}></div>
+            <div className="main-footer__bg background-black" style={{ backgroundImage: `url(${footerCubesBg.src})` }}></div>
 
-            <div className="main-footer__shape" style={{ backgroundImage: `url(${shape.src})` }}>
+            {/* Animated Blue Circle & Radar Shapes matching Screenshot 2 */}
+            <div className="main-footer__shapes-wrap" aria-hidden="true">
+                <div className="main-footer__radar-circle">
+                    <div className="radar-ring radar-ring--outer"></div>
+                    <div className="radar-ring radar-ring--middle"></div>
+                    <div className="radar-ring radar-ring--inner" style={{ backgroundImage: `url(${shape.src})` }}></div>
+                    <div className="radar-glow"></div>
+                </div>
+
+                {/* Top Bullseye circle matching Screenshot 2 */}
+                <div className="main-footer__bullseye">
+                    <span className="bullseye-ring"></span>
+                    <span className="bullseye-dot"></span>
+                </div>
+
+                <div className="main-footer__floating-dot"></div>
+                <div className="main-footer__floating-ring"></div>
             </div>
-            <Container >
+
+            <Container>
                 <Row >
                     <Col md={6} lg={4} >
                         <div className="footer-widget footer-widget--about">
+                            <div className="footer-widget--about__dot-accent">
+                                <span className="dot-accent__ring"></span>
+                                <span className="dot-accent__dot"></span>
+                            </div>
                             <Link href="/" className="footer-widget__logo">
                                 <Image src={logo} width={210} height={48} style={{ width: "auto", height: "48px", objectFit: "contain" }} alt="Code Enter" />
                             </Link>
