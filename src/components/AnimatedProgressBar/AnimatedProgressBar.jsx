@@ -50,14 +50,14 @@ const AnimatedProgressBar = ({ progress, title, text, service }) => {
                     duration={1}
                   />
                 </span>
-                <span className="count-Parsent">{progress.countPercent}%</span>
+                <span className="count-Parsent">%</span>
               </div>
             </div>
           )}
         </VisibilitySensor>
       </div >
-      <h5 className={`${service === 'about' ? "about-three__content__skill__title" : "skill-one__content__skill__title"}`}>{title}</h5>
-      <p className={`${service === 'about' ? "about-three__content__skill__text" : "skill-one__content__skill__text"}`}>{text}</p>
+      <h5 className={service === "service" ? "service-details__skill__title" : service === "about" ? "about-three__content__skill__title" : "skill-one__content__skill__title"}>{title}</h5>
+      <p className={service === "service" ? "service-details__skill__text" : service === "about" ? "about-three__content__skill__text" : "skill-one__content__skill__text"}>{text}</p>
     </div >
   );
 };

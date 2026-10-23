@@ -21,6 +21,8 @@ const ServiceDetails = ({ currentId }) => {
         skills,
         lists,
         solutionText,
+        solutionAdvantageTitle,
+        solutionAdvantage,
         contentImage,
         lastText,
     } = data
@@ -98,7 +100,7 @@ const ServiceDetails = ({ currentId }) => {
                                 ))}
                             </Row>
                             <p className="service-details__text">
-                                <span>Solution:</span> {solutionText}
+                                <span>{solutionAdvantageTitle || "Solution:"}</span> {solutionAdvantage || solutionText}
                             </p>
                         </Col>
                         <Col lg={6}>

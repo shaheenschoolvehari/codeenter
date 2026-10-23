@@ -17,44 +17,50 @@ const serviceDetailsData = [
       ],
     },
     content: [
-      "Tailored, scalable web, mobile, and cloud software engineering built to solve complex business challenges and drive operational efficiency. At Code Enter, our seasoned engineers build high-performance, robust software architectures engineered from the ground up to support high-traffic loads and mission-critical workflows.",
+      "Code Enter is a forward-thinking IT services company specializing in customized software solutions tailored to the unique needs of our clients. By leveraging the latest AI techniques and cutting-edge technologies, we deliver innovative, efficient, and high-quality solutions that drive business growth and operational excellence.",
+      "We don't believe in one-size-fits-all. Every business has unique goals, workflows, and challenges. That's why we design and develop custom software, AI solutions, and digital strategies specifically aligned with your requirements — ensuring the final product fits your vision perfectly. Our dedicated engineering team crafts intelligent architectures that empower your enterprise to stay ahead in a rapidly evolving digital landscape.",
       "From enterprise portals to microservices architectures and cloud-native solutions, our software engineering process focuses on clean code, seamless integration, high security, and long-term scalability to ensure your business remains ahead of the curve.",
     ],
     skills: [
       {
         id: 1,
-        title: "Software Architecture",
-        text: "Enterprise Level",
-        percentage: 95,
+        title: "Scalable Architecture",
+        text: "Future-Ready Systems",
+        percentage: 98,
       },
       {
         id: 2,
-        title: "Cloud & Microservices",
-        text: "Scalable Infrastructure",
-        percentage: 92,
+        title: "Enhanced Security",
+        text: "Zero-Trust & Compliance",
+        percentage: 96,
       },
     ],
     lists: [
       {
         id: 1,
         items: [
-          "End-to-End Bespoke Development",
+          "Tailored Custom Engineering",
           "API & Cloud Microservices",
+          "User-Centric Intuitive UI/UX",
         ],
       },
       {
         id: 2,
         items: [
-          "High-Security Modern Codebase",
-          "Agile & Scalable Deliverables",
+          "Total Code IP Ownership",
+          "Agile & Transparent Sprints",
+          "Long-Term Dedicated Support",
         ],
       },
     ],
     solutionText:
-      "Enterprise-grade software architectures designed for rapid scaling, zero downtime, and robust performance across web and cloud environments.",
+      "Scalability & Seamless Integration: Your business will grow, and your technology should grow with it. We build flexible, future-ready systems that can easily scale as your user base, data volume, or operational needs expand — while ensuring seamless connectivity with your existing tools, platforms, and third-party APIs.",
+    solutionAdvantageTitle: "Why Choose Code Enter:",
+    solutionAdvantage:
+      "You retain 100% intellectual property (IP) and full control over your source code, avoiding recurring third-party vendor lock-ins with regular demo cycles and transparent sprints.",
     contentImage: serviceDContent,
     lastText:
-      "Transforming complex business challenges into intuitive, high-velocity digital products with modern engineering standards, automated CI/CD pipelines, and continuous support.",
+      "Technology & Expertise: Powered by modern stacks including React, Angular, Vue.js, Node.js, Python, .NET, Java, MySQL, PostgreSQL, MongoDB, AWS, Azure, Google Cloud, Flutter, React Native, Kotlin, and Swift. We transform complex operational challenges into reliable, high-velocity digital products with automated CI/CD pipelines and continuous technical support.",
   },
   {
     id: "/ai-enterprise-success",
@@ -69,21 +75,22 @@ const serviceDetailsData = [
       ],
     },
     content: [
-      "Custom enterprise AI architectures, autonomous agent workflows, and domain-specific LLMs built to accelerate productivity and market success. Code Enter empowers organizations to integrate cutting-edge intelligence directly into their production environments.",
-      "We build production-ready agentic workflows, custom retrieval-augmented generation (RAG) pipelines, and multimodal AI solutions that automate complex manual tasks, uncover actionable business insights, and drive exponential ROI.",
+      "At Code Enter, we empower modern enterprises to integrate production-grade artificial intelligence directly into their operational ecosystems. We build intelligent AI agents that go beyond chatbots — they plan, use tools, take actions, and complete multi-step tasks autonomously, helping your business automate complex workflows.",
+      "From generative AI solutions and custom domain-specific LLMs to private enterprise RAG pipelines, we deliver advanced AI systems tailored to your company's proprietary data for higher accuracy, reliable reasoning, and exponential ROI. We develop and fine-tune specialized models that deliver stronger relevance and compliance than generic off-the-shelf tools.",
+      "Our multimodal solutions process and generate across text, images, video, and audio in a unified system — enabling richer applications like visual search, intelligent content analysis, predictive machine learning, and computer vision for automated quality control.",
     ],
     skills: [
       {
         id: 1,
-        title: "Enterprise AI & LLMs",
-        text: "Autonomous Workflows",
-        percentage: 98,
+        title: "Agentic Automation",
+        text: "Multi-Agent Workflows",
+        percentage: 97,
       },
       {
         id: 2,
-        title: "Agentic Automation",
-        text: "Multi-Agent Systems",
-        percentage: 94,
+        title: "Model Precision",
+        text: "Domain-Specific LLMs",
+        percentage: 99,
       },
     ],
     lists: [
@@ -91,22 +98,27 @@ const serviceDetailsData = [
         id: 1,
         items: [
           "Autonomous Multi-Agent Networks",
-          "Fine-Tuned LLMs & RAG Pipelines",
+          "Private Enterprise RAG Knowledge Hubs",
+          "Intelligent Process Automation",
         ],
       },
       {
         id: 2,
         items: [
-          "Enterprise Data Privacy & Security",
-          "Automated Business Workflows",
+          "24/7 AI Customer Support Agents",
+          "Multimodal AI & Computer Vision",
+          "Predictive Machine Learning Insights",
         ],
       },
     ],
     solutionText:
-      "Enterprise AI architectures customized for high-accuracy reasoning, real-time data automation, and autonomous execution.",
+      "Autonomous Multi-Agent Workflows: Deploy intelligent multi-agent systems designed to coordinate, evaluate, and execute complex business processes across departments with minimal manual intervention.",
+    solutionAdvantageTitle: "Enterprise AI Integration:",
+    solutionAdvantage:
+      "We securely integrate AI into your existing tools and platforms, building governed, scalable AI systems that work seamlessly across your organization while safeguarding sensitive proprietary data.",
     contentImage: serviceDContent,
     lastText:
-      "Empowering modern enterprises with autonomous AI systems that learn, adapt, and autonomously execute mission-critical operations with superior precision.",
+      "Empowering modern enterprises with autonomous AI systems that learn, adapt, and autonomously execute mission-critical operations with superior precision, accelerating productivity and giving your business an insurmountable competitive advantage.",
   },
   {
     id: "/digital-marketing-seo",
@@ -121,21 +133,22 @@ const serviceDetailsData = [
       ],
     },
     content: [
-      "Data-driven marketing campaigns, technical SEO audits, search visibility optimization, and performance strategies to maximize inbound ROI. At Code Enter, we blend engineering precision with growth marketing to secure industry-leading search engine rankings.",
-      "From technical crawlability, structured schema, and Core Web Vitals optimization to performance funnels and paid ad campaigns, our digital marketing solutions generate high-intent enterprise leads and measurable business growth.",
+      "At Code Enter, we blend engineering precision with high-impact digital marketing and technical SEO to secure sustainable search visibility and maximize customer acquisition. Our technical SEO audits, site architecture engineering, and Core Web Vitals optimization give search engines a smooth, error-free path to index and rank your brand at the top of organic results.",
+      "From high-intent keyword research and authoritative content strategy to targeted Pay-Per-Click (PPC) advertising, social media campaigns, and conversion rate optimization (CRO), we build data-backed funnels that turn visitors into loyal paying customers. We discover competitive opportunities to capture ready-to-convert traffic across search engines and social platforms.",
+      "We implement robust schema markup, on-page optimization, and high-authority backlink acquisition while actively managing local SEO and online reputation management (ORM) to protect and elevate your public brand image.",
     ],
     skills: [
       {
         id: 1,
-        title: "Technical SEO & Audits",
-        text: "Search Visibility",
+        title: "Technical SEO",
+        text: "Organic Visibility & Growth",
         percentage: 96,
       },
       {
         id: 2,
-        title: "Performance Marketing",
-        text: "ROI Driven",
-        percentage: 91,
+        title: "Conversion Optimization",
+        text: "PPC & Maximum ROAS",
+        percentage: 94,
       },
     ],
     lists: [
@@ -143,22 +156,27 @@ const serviceDetailsData = [
         id: 1,
         items: [
           "Technical SEO & Core Web Vitals",
-          "Data-Driven Performance Funnels",
+          "Keyword Research & On-Page SEO",
+          "High-Authority Backlink Acquisition",
         ],
       },
       {
         id: 2,
         items: [
-          "High-Conversion Inbound Strategy",
-          "Search Engine Dominance",
+          "PPC Advertising & Social Campaigns",
+          "Conversion Rate Optimization (CRO)",
+          "Voice Search & Local SEO (GMB)",
         ],
       },
     ],
     solutionText:
-      "Full-spectrum digital marketing strategies combined with rigorous technical SEO engineering to maximize organic reach and brand equity.",
+      "Data-driven marketing campaigns engineered to capture ready-to-convert organic and paid traffic across every stage of the customer acquisition funnel, maximizing your return on ad spend (ROAS).",
+    solutionAdvantageTitle: "Performance Tracking:",
+    solutionAdvantage:
+      "Measure campaign ROI with real-time attribution modeling, transparent tracking dashboards, and in-depth performance analytics to continually optimize your marketing spend.",
     contentImage: serviceDContent,
     lastText:
-      "Accelerating enterprise growth and customer acquisition with transparent analytics, algorithmic search optimization, and data-backed performance campaigns.",
+      "Industries We Serve: E-commerce, Education, Healthcare, Finance & Banking, Real Estate, and Manufacturing. We accelerate enterprise growth with transparent analytics, algorithmic search optimization, and data-backed performance campaigns designed for maximum ROI.",
   },
 ];
 
