@@ -1,7 +1,6 @@
 "use client";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
-import Link from "next/link";
 // import AnimatedProgressBar from "@/components/AnimatedProgressBar";
 import serviceDetailsData from "@/data/ServiceDetailsData";
 import AnimatedProgressBar from "../AnimatedProgressBar/AnimatedProgressBar";
@@ -41,12 +40,23 @@ const ServiceDetails = ({ currentId }) => {
                             <h3 className="service-details__sidebar__title">
                                 {sidebar.title}
                             </h3>
-                            <ul className="list-unstyled service-details__sidebar__nav">
-                                {sidebar.navItems.map(({ id, name, href }) => (
-                                    <li className={`${activeRoute === href || pathname === href ? 'current' : ""}`} key={id}>
-                                        <Link href={href}>{name}</Link>
-                                    </li>
-                                ))}
+                            <ul className="list-unstyled service-details__sidebar__list">
+                                {sidebar.navItems.map(({ id, name, href }) => {
+                                    const isCurrent = activeRoute === href || pathname === href;
+                                    return (
+                                        <li
+                                            className={`service-details__sidebar__card ${isCurrent ? 'current' : ''}`}
+                                            key={id}
+                                        >
+                                            <span className="service-details__sidebar__card-icon">
+                                                <i className="fas fa-check"></i>
+                                            </span>
+                                            <span className="service-details__sidebar__card-title">
+                                                {name}
+                                            </span>
+                                        </li>
+                                    );
+                                })}
                             </ul>
                         </div>
                     </Col>
