@@ -4,6 +4,7 @@ import HeaderInnerCloned from "@/components/HeaderInner/HeaderInnerCloned";
 import PageHeader from "@/components/PageHeader/PageHeader";
 import ServiceDetails from "@/components/ServiceDetails/ServiceDetails";
 import Footer from "@/components/Footer/Footer";
+import softwareBg from "@/assets/images/backgrounds/page-header-bg-software.jpg";
 
 export const metadata = {
   title: "Custom Software Development - Code Enter",
@@ -19,6 +20,7 @@ const CustomSoftwareDevelopmentPage = () => {
       <PageHeader
         title="Custom Software Development"
         subTitle="Custom Software Development"
+        bgImage={softwareBg}
       />
       <ServiceDetails currentId="/custom-software-development" />
       <Footer />

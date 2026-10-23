@@ -3,10 +3,14 @@ import React from "react";
 import bannerLayer from "@/assets/images/backgrounds/page-banner-layer.png";
 import Link from "next/link";
 
-const PageHeader = ({ title, subTitle }) => {
+const PageHeader = ({ title, subTitle, bgImage }) => {
+  const bgStyle = bgImage
+    ? { backgroundImage: `url(${typeof bgImage === 'string' ? bgImage : bgImage?.src || bgImage})` }
+    : undefined;
+
   return (
     <section className='page-header'>
-      <div className='page-header__bg'></div>
+      <div className='page-header__bg' style={bgStyle}></div>
       <div className='page-header__shape'></div>
       <div className='page-header__shape-two'></div>
 

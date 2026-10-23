@@ -13337,8 +13337,7 @@ body.megamenu-popup-active .mobile-nav__content {
   height: 100%;
   left: 0;
   top: 0;
-  background-color: var(--tolak-black, #051d1f);
-  opacity: 0.9;
+  background: linear-gradient(270deg, rgba(5, 29, 31, 0.95) 0%, rgba(5, 29, 31, 0.85) 45%, rgba(5, 29, 31, 0.72) 100%);
 }
 
 .page-header__shape {

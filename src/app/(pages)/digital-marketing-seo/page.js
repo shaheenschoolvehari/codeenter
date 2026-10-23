@@ -4,6 +4,7 @@ import HeaderInnerCloned from "@/components/HeaderInner/HeaderInnerCloned";
 import PageHeader from "@/components/PageHeader/PageHeader";
 import ServiceDetails from "@/components/ServiceDetails/ServiceDetails";
 import Footer from "@/components/Footer/Footer";
+import marketingBg from "@/assets/images/backgrounds/page-header-bg-marketing.jpg";
 
 export const metadata = {
   title: "Digital Marketing & Technical SEO Services - Code Enter",
@@ -19,6 +20,7 @@ const DigitalMarketingSeoPage = () => {
       <PageHeader
         title="Digital Marketing & Technical SEO Services"
         subTitle="Digital Marketing & Technical SEO Services"
+        bgImage={marketingBg}
       />
       <ServiceDetails currentId="/digital-marketing-seo" />
       <Footer />
