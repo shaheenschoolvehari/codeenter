@@ -18533,10 +18533,16 @@ body.megamenu-popup-active .mobile-nav__content {
 
 .service-details__thumbnail {
   position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(5, 29, 31, 0.06);
 }
 
 .service-details__thumbnail img {
   width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
 }
 
 .service-details__sidebar {
