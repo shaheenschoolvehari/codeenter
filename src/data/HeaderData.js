@@ -19,7 +19,6 @@ const singleNavItems = [
   { name: 'Home', href: 'home' },
   { name: 'Services', href: 'services' },
   { name: 'About', href: 'about' },
-  { name: 'Team', href: 'team' },
   { name: 'Contact', href: 'contact' },
 ];
 
@@ -41,11 +40,6 @@ const navItems = [
   },
   {
     id: 4,
-    name: "Team",
-    href: "/#team",
-  },
-  {
-    id: 5,
     name: "Contact",
     href: "/#contact",
   },

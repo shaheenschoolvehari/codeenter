@@ -47,7 +47,7 @@ const page = () => {
       <AboutOne />
       <FunFactOne />
       <CtaTwo />
-      <TeamOne />
+      {/* <TeamOne /> -- Future update: Team section hidden for now; easily uncomment when team members are finalized */}
       <OurSolution />
       <FeatureTwo />
       {/* <PojectOne /> -- Future update: Uncomment to display Projects section */}

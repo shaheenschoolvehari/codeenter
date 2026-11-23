@@ -7763,6 +7763,13 @@ body.megamenu-popup-active .mobile-nav__content {
 .cta-two {
   position: relative;
   background-color: var(--tolak-white, #fff);
+  padding-bottom: 120px;
+}
+
+@media (max-width: 767px) {
+  .cta-two {
+    padding-bottom: 80px;
+  }
 }
 
 .cta-two__bg {

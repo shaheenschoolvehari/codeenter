@@ -45,15 +45,13 @@ const footerData = {
     { id: 1, href: "/#home", title: "Home" },
     { id: 2, href: "/#services", title: "Services" },
     { id: 3, href: "/#about", title: "About" },
-    { id: 4, href: "/#team", title: "Team" },
-    { id: 5, href: "/#contact", title: "Contact" },
+    { id: 4, href: "/#contact", title: "Contact" },
   ],
   bottomLinks: [
     { id: 1, href: "/#home", title: "Home" },
     { id: 2, href: "/#services", title: "Services" },
     { id: 3, href: "/#about", title: "About" },
-    { id: 4, href: "/#team", title: "Team" },
-    { id: 5, href: "/#contact", title: "Contact" },
+    { id: 4, href: "/#contact", title: "Contact" },
   ],
 };
 
