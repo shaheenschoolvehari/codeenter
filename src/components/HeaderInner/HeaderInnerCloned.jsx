@@ -7,7 +7,7 @@ import NavItems from "../NavItems/NavItems";
 import { useRootContext } from "@/Provider/context";
 import useScrollUp from "@/hooks/useScrollUp";
 
-const { navItems, logo_light } = headerData;
+const { navItems, main_logo } = headerData;
 const HeaderInnerCloned = () => {
   const scrollToTop = useScrollUp(500);
   const { toggleSearch, handleToggle, toggleSidebar } = useRootContext();
@@ -18,7 +18,7 @@ const HeaderInnerCloned = () => {
           <div className='main-header-inner__logo'>
             <Link href='/'>
               <Image
-                src={logo_light}
+                src={main_logo}
                 alt='Code Enter'
                 width={300}
                 height={62}
