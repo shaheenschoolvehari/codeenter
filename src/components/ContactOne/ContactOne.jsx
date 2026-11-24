@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { Fragment, useEffect, useState, useRef } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast';
 const { infoIcon,
     infoTitle,
@@ -21,6 +20,8 @@ const ContactOne = ({ rtl }) => {
     const form = useRef(null);
     const [mounted, setMounted] = useState(false);
 
+    const [isSubmitting, setIsSubmitting] = useState(false);
+
     useEffect(() => {
         setMounted(true);
     }, []);
@@ -29,22 +30,31 @@ const ContactOne = ({ rtl }) => {
         return null;
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
+        setIsSubmitting(true);
 
-        emailjs.sendForm(process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-            process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
-            form.current,
-            process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY)
-            .then((result) => {
-                console.log(result.text);
-                toast.success('Email sent successfully!');
-            }, (error) => {
-                console.log(error.text);
-                toast.error('Failed to send email.');
+        const formData = new FormData(form.current);
+
+        try {
+            const response = await fetch('/contact.php', {
+                method: 'POST',
+                body: formData
             });
 
-        e.target.reset();
+            const data = await response.json();
+            if (response.ok && data.status === 'success') {
+                toast.success('Email sent successfully!');
+                if (form.current) form.current.reset();
+            } else {
+                toast.error(data.message || 'Failed to send email.');
+            }
+        } catch (error) {
+            console.error('Error submitting form:', error);
+            toast.error('Failed to send email.');
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
@@ -98,16 +108,16 @@ const ContactOne = ({ rtl }) => {
                                 <form onSubmit={handleSubmit} ref={form} className="contact-one__form contact-form-validated form-one">
                                     <div className="form-one__group">
                                         <div className="form-one__control">
-                                            <input type="text" name="from_name" placeholder="Your Name" />
+                                            <input type="text" name="from_name" placeholder="Your Name" required />
                                         </div>
                                         <div className="form-one__control">
-                                            <input type="email" name="email_id" placeholder="Email address" />
+                                            <input type="email" name="email_id" placeholder="Email address" required />
                                         </div>
                                         <div className="form-one__control form-one__control--full">
-                                            <textarea name="message" placeholder="Message"></textarea>
+                                            <textarea name="message" placeholder="Message" required></textarea>
                                         </div>
                                         <div className="form-one__control form-one__control--full">
-                                            <button type="submit" className="tolak-btn"><b>Send Request</b><span></span></button>
+                                            <button type="submit" className="tolak-btn" disabled={isSubmitting}><b>{isSubmitting ? 'Sending...' : 'Send Request'}</b><span></span></button>
                                         </div>
                                     </div>
                                 </form>
