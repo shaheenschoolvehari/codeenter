@@ -30872,23 +30872,21 @@ body.boxed-wrapper .main-slider-one__floating-text {
 }
 
 /*--------------------------------------------------------------
-# Services Page Sticky Header White
+# Services Page Header: Match Home Page Solid White Header Bar
 --------------------------------------------------------------*/
-.main-header-inner.sticky-header--cloned {
-  background-color: var(--tolak-white, #fff) !important;
-  box-shadow: 0px 3px 18px rgba(var(--tolak-black-rgb, 5, 29, 31), 0.08) !important;
+.page-header__content {
+  padding: 170px 0 170px;
 }
 
-.main-header-inner.sticky-header--cloned .main-menu .main-menu__list > li > a {
-  color: var(--tolak-black2, #222222) !important;
+@media (max-width: 1199px) {
+  .page-header__content {
+    padding: 130px 0 130px;
+  }
 }
 
-.main-header-inner.sticky-header--cloned .main-menu .main-menu__list > li:hover > a,
-.main-header-inner.sticky-header--cloned .main-menu .main-menu__list > li > a.current {
-  color: var(--tolak-base, #3d72fc) !important;
-}
-
-.main-header-inner.sticky-header--cloned .mobile-nav__btn span {
-  background-color: var(--tolak-black, #051d1f) !important;
+@media (max-width: 767px) {
+  .page-header__content {
+    padding: 95px 0 90px;
+  }
 }
 

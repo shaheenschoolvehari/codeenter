@@ -3,23 +3,23 @@ import headerData from "@/data/HeaderData";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { Container } from "react-bootstrap";
 import NavItems from "../NavItems/NavItems";
 import { useRootContext } from "@/Provider/context";
 import useScroll from "@/hooks/useScroll";
-import useScrollUp from "@/hooks/useScrollUp";
 
-const { navItems, logo_light } = headerData;
+const { navItems, main_logo } = headerData;
 const HeaderInner = () => {
-  const scrollToTop = useScrollUp(500);
-  const { toggleSearch, handleToggle, toggleSidebar } = useRootContext();
+  const scrollTop = useScroll(130);
+  const { handleToggle } = useRootContext();
   return (
-    <header className={`main-header-inner sticky-header sticky-header--normal  ${scrollToTop ? "active" : ""}`}>
-      <div className='container'>
-        <div className='main-header-inner__inner'>
-          <div className='main-header-inner__logo'>
+    <header className={`main-header sticky-header sticky-header--one-page ${scrollTop ? "active " : ""}`}>
+      <Container fluid>
+        <div className='main-header__inner'>
+          <div className='main-header__logo'>
             <Link href='/'>
               <Image
-                src={logo_light}
+                src={main_logo}
                 alt='Code Enter'
                 width={300}
                 height={62}
@@ -29,15 +29,14 @@ const HeaderInner = () => {
             </Link>
           </div>
 
-          <nav className='main-header-inner__nav main-menu'>
-            <ul className='main-menu__list'>
+          <nav className='main-header__nav main-menu'>
+            <ul className='main-menu__list one-page-scroll-menu'>
               {navItems.map((item) => (
                 <NavItems key={item.id} item={item} />
               ))}
-              <li className='dot'></li>
             </ul>
           </nav>
-          <div className='main-header-inner__right'>
+          <div className='main-header__right'>
             <div
               onClick={handleToggle}
               className='mobile-nav__btn mobile-nav__toggler'
@@ -48,7 +47,7 @@ const HeaderInner = () => {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </header>
   );
 };
