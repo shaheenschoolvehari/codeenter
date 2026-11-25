@@ -1,6 +1,7 @@
 "use client";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
+import Link from "next/link";
 // import AnimatedProgressBar from "@/components/AnimatedProgressBar";
 import serviceDetailsData from "@/data/ServiceDetailsData";
 import AnimatedProgressBar from "../AnimatedProgressBar/AnimatedProgressBar";
@@ -44,18 +45,24 @@ const ServiceDetails = ({ currentId }) => {
                             </h3>
                             <ul className="list-unstyled service-details__sidebar__list">
                                 {sidebar.navItems.map(({ id, name, href }) => {
-                                    const isCurrent = activeRoute === href || pathname === href;
+                                    const normalizedPathname = pathname?.replace(/\/$/, "");
+                                    const isCurrent = activeRoute === href || normalizedPathname === href;
                                     return (
-                                        <li
-                                            className={`service-details__sidebar__card ${isCurrent ? 'current' : ''}`}
-                                            key={id}
-                                        >
-                                            <span className="service-details__sidebar__card-icon">
-                                                <i className="fas fa-check"></i>
-                                            </span>
-                                            <span className="service-details__sidebar__card-title">
-                                                {name}
-                                            </span>
+                                        <li className="service-details__sidebar__item" key={id}>
+                                            <Link
+                                                href={href}
+                                                className={`service-details__sidebar__card ${isCurrent ? 'current' : ''}`}
+                                            >
+                                                <span className="service-details__sidebar__card-icon">
+                                                    <i className="fas fa-check"></i>
+                                                </span>
+                                                <span className="service-details__sidebar__card-title">
+                                                    {name}
+                                                </span>
+                                                <span className="service-details__sidebar__card-arrow" aria-hidden="true">
+                                                    <i className="fas fa-arrow-right"></i>
+                                                </span>
+                                            </Link>
                                         </li>
                                     );
                                 })}
