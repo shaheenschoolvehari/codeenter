@@ -59,9 +59,6 @@ const ServiceDetails = ({ currentId }) => {
                                                 <span className="service-details__sidebar__card-title">
                                                     {name}
                                                 </span>
-                                                <span className="service-details__sidebar__card-arrow" aria-hidden="true">
-                                                    <i className="fas fa-arrow-right"></i>
-                                                </span>
                                             </Link>
                                         </li>
                                     );
